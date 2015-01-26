@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" 
+xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" 
+xmlns:bqmodel="http://biomodels.net/model-qualifiers/" 
+xml:base="http://www.pharmml.org/2013/10/PharmMLMetadata#" 
+xmlns:ps="http://www.pharmml.org/2013/10/PharmMLMetadata#" > 
+
+
+<!-- PharmML Metadata 0.4.1  -->
+
+
+<!-- limitations of model -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>limitations of models</rdfs:label>
+  <rdfs:comment>link between a model and the description of its range of application and limitations in textual form.</rdfs:comment>
+<!-- EFPIA list -->  
+</rdf:Description>  
+
+
+<!-- sampling type -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>sampling type</rdfs:label>
+  <rdfs:comment>link between a model and a sampling type, for example: longitudinal rich, longitudinal sparse, 1 time point.</rdfs:comment>
+<!-- EFPIA list -->  
+</rdf:Description>  
+
+
+
+<!-- PharmML Metadata 0.4.0  -->
+
+
+<!-- EFPIA additions -->
+
+
+<!-- reasons for submission -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-rationale">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>rationale</rdfs:label>
+  <rdfs:comment>link between a model and the reason for which the model is deemed significant. In the context of a repository, this link allows accounting for the reasons for which the model has been submitted to its repository.</rdfs:comment>
+<!-- EFPIA list -->  
+</rdf:Description>  
+
+
+<!-- indications or disease -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-indication">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>indication</rdfs:label>
+  <rdfs:comment>link between a model and indications or diseases related to the phenomenon modelled.</rdfs:comment>
+<!-- EFPIA list -->  
+</rdf:Description>  
+
+
+<!-- population characteristics  -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>population characteristic</rdfs:label>
+  <rdfs:comment>link between a model and the characteristics of the population associated with the model's application. A typical entry is phenotypical but characterises any relevant or intended group.</rdfs:comment>
+<!-- EFPIA list -->  
+</rdf:Description>  
+
+
+<!-- PharmML Metadata 0.3.0  -->
+
+
+<!-- bookkeepping --> 
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>filename</rdfs:label>
+  <rdfs:comment>link between a model and the name of the PharmML file for the model</rdfs:comment>
+<!-- model string -->  
+</rdf:Description>  
+
+
+<!-- references --> 
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>source id</rdfs:label>
+  <rdfs:comment>link between a model and a publication identifier for a source of the model</rdfs:comment>
+<!-- model string -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>source reference</rdfs:label>
+  <rdfs:comment>link between a model and a publication reference (in any bibliographic style) for a source of the model</rdfs:comment>
+<!-- model string -->  
+</rdf:Description>  
+
+
+<!-- Pharmacometrics -->
+
+
+<!-- General typology -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#has-interpreted-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>generic type</rdfs:label>
+  <rdfs:comment>link between a model and a type of models selected from a relevant and limited generic typology</rdfs:comment>
+<!-- structural model  Generic type of model, e.g., pkpd effects, pbpk, time to event, disease progression -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>purpose</rdfs:label>
+  <rdfs:comment>link between a model and a specific purpose for which the model is developed</rdfs:comment>
+<!-- structural model  toxicity, efficacy, pharmaceutical effectiveness -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>therapeutic area</rdfs:label>
+  <rdfs:comment>link between a model and a specific area of application for the model</rdfs:comment>
+<!-- structural model  oncology, diabetes -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-context">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>experimental context of model</rdfs:label>
+  <rdfs:comment>link between a model and a type of experimental context</rdfs:comment>
+<!-- model  clinical, preclinical, translational -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>modelling question</rdfs:label>
+  <rdfs:comment>link between a model and a specific, possibly complex topic describing the specific question the model intends to address</rdfs:comment>
+<!-- model  clinical, preclinical, translational -->  
+</rdf:Description>  
+
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-stage">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>clinical stage of model</rdfs:label>
+  <rdfs:comment>link between a model and a type of clinical stage</rdfs:comment>
+<!-- model  clinical, preclinical, translational -->  
+</rdf:Description>  
+
+<!-- Drug related -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-route-of-administration-attribute">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  <rdfs:label>administration route</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and a specific type of route of administration for a drug studied in the model</rdfs:comment>  
+<!-- trial design/structure  Administration routes, e.g. oral, bolus, infusion...  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-administration-profile-attribute">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>dosing regimen</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and a specific type of dosing regimen of administration for a drug studied in the model</rdfs:comment>  
+<!-- trial design/structure  Administration profile, e.g., single dose, multiple dose, steady state administration  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-combination">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>drug therapy</rdfs:label>
+  <rdfs:comment>link between the trial design of a model and the type of therapy for the drug (or drug combination) studied in the model</rdfs:comment>  
+<!-- trial design/structure  single, multiple  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>drug name</rdfs:label>
+  <rdfs:comment>link between the trial design of a model and the drug(s) studied in the model</rdfs:comment>  
+<!--   Drug name  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-design-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>design type</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and a specific type of design</rdfs:comment>  
+<!-- trial design  parallel, cross over  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-study-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>study type</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and a specific type of study</rdfs:comment>  
+<!-- trial design  longitudinal  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-input-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>input type</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and the type of input for the administered drug studied in the model</rdfs:comment>  
+<!-- trial design  bolus, infusion  -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-formulation-type">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>formulation type</rdfs:label>
+  <rdfs:comment>link between the relevant part of the trial design of a model and the type of formulation for the administered drug studied in the model</rdfs:comment>  
+<!-- trial design  tablet, powder, controlled release  -->  
+</rdf:Description>  
+
+
+<!-- Data related -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>data source type</rdfs:label>
+  <rdfs:comment>link between a data set and a generic type of data source</rdfs:comment>  
+<!-- EstimationStep/ObjectiveDataSet (derived: model)  experimental observation, literature, simulation...   -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>data type</rdfs:label>
+  <rdfs:comment>link between either kind of data model and a generic type of data</rdfs:comment>  
+<!-- EstimationStep/ObjectiveDataSet (derived: model)  continuous, categorical, time to event, count   -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#estimation-model-type-of-data">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>data type for estimation</rdfs:label>
+  <rdfs:comment>link between a dataset in an estimation step and a generic type of data</rdfs:comment>
+<!--PharmML/EstimationStep/ObjectiveDataSet    continuous, categorical, time to event, count -->
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#observation-model-type-of-data">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>data type for observation</rdfs:label>
+  <rdfs:comment>link between a dataset in a model definition and a generic type of data applies specifically to data in relation to a model definition</rdfs:comment>
+<!-- PharmML/ModelDefinition/ObservationModel    continuous, categorical, time to event, count -->
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-context">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>experimental context of data</rdfs:label>
+  <rdfs:comment>link between a model and a type of experimental context applies to a dataset in relation to an estimation step</rdfs:comment>
+<!-- PharmML/EstimationStep/ObjectiveDataSet   clinical, preclinical, in vitro, translational -->
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-stage">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>clinical stage of data</rdfs:label>
+  <rdfs:comment>link between a model and a type of clinical stage applies to a dataset in relation to an estimation step</rdfs:comment>
+<!-- PharmML/EstimationStep/ObjectiveDataSet   Phase 0, I, II, III, IV, observational, TDM -->
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#data-observation-level">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>observation level</rdfs:label>
+  <rdfs:comment>link between a dataset in a model definition and a type of data level applies specifically to data in relation to a model definition multiple entries allowed</rdfs:comment>
+<!-- PharmML/ModelDefinition/ObservationModel   subject/patient-level, summary-level -->
+</rdf:Description>  
+
+
+<!-- Formal machinery -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>maths</rdfs:label>
+  <rdfs:comment>link between a model and a generic type of mathematical formalism used in that model</rdfs:comment>
+<!-- structural model model  linear , nonlinear , mixed-effect, classical regression , ode, pde, dde, hybrid formalism, algebraic equation   -->  
+</rdf:Description>  
+
+
+<!-- Estimation  -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-uses-software">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>estimation software</rdfs:label>
+  <rdfs:comment>link between an estimation step and the software used to perform it natively</rdfs:comment>
+<!-- EstimationStep  matlab, monolix, nonmem, winnolin... -->  
+</rdf:Description>  
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-parameter-estimation-uses-algorithm">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>estimation algorithm</rdfs:label>
+  <rdfs:comment>link between an estimation step and the algorithm used in it</rdfs:comment>
+<!-- EstimationStep  fo, foce, saem, gauss-newton-, levenberg-marquardt -->  
+</rdf:Description>  
+
+
+<!-- Units -->
+
+<rdf:Description rdf:about="http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit">
+  <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>  
+  <rdfs:label>unit</rdfs:label>
+  <rdfs:comment>generic link between any model element bearing unit information and a unit of measurement</rdfs:comment>
+<!-- model element (parameter, variable, dataset column)  unit of measurement -->  
+</rdf:Description>  
+
+
+
+
+
+</rdf:RDF>
