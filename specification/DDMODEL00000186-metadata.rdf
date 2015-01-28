@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:dct="http://purl.org/dc/terms/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:cito="http://purl.org/spar/cito/"
+        xmlns:dcat="http://www.w3.org/ns/dcat#"
+        xmlns:base="http://wwwdev.ebi.ac.uk/biomodels/model-repository/model/DDMODEL00000186">
+
+    <!-- Annotating the root element a pharmml model. In this example there is no model id. This should be mandatory-->
+    <rdf:Description rdf:about="#modelid">
+        <!--Submitter of the model to the repository-->
+        <dct:creator>
+            <foaf:name>Maciek J Swat</foaf:name>
+        </dct:creator>
+
+        <!--Affiliation of where the model is constructed-->
+        <dct:publisher rdf:resource="http://www.ebi.ac.uk"/>
+
+        <!--Model name-->
+        <dct:title>Example 5 - estimation for growth tumor model (Ribba et al. 2012)</dct:title>
+
+        <!--Model description-->
+        <dct:description>based on A Tumor Growth Inhibition Model for Low-Grade Glioma Treated with Chemotherapy or Radiotherapy
+                Benjamin Ribba, Gentian Kaloshi, Mathieu Peyre, et al. Clin Cancer Res Published OnlineFirst July 3, 2012.
+        </dct:description>
+
+        <!--Publication-->
+        <cito:citesAsAuthority rdf:resource="http://identifiers.org/doi/10.1158/1078-0432.CCR-12-0084"/>
+
+        <!--Link to the combine archive-->
+        <dcat:downloadURL rdf:resource="#Files"/>
+
+    </rdf:Description>
+</rdf:RDF>
