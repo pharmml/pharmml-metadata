@@ -10,9 +10,7 @@
     <!-- Annotating the root element a pharmml model. In this example there is no model id. This should be mandatory-->
     <rdf:Description rdf:about="#modelid">
         <!--Submitter of the model to the repository-->
-        <dct:creator>
-            <foaf:name>Maciek J Swat</foaf:name>
-        </dct:creator>
+        <dct:creator>Maciek J Swat</dct:creator>
 
         <!--Affiliation of where the model is constructed-->
         <dct:publisher rdf:resource="http://www.ebi.ac.uk"/>
