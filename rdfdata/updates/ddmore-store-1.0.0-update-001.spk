@@ -1,0 +1,3 @@
+DELETE DATA { <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" }
+INSERT DATA {
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "as defined in trial protocol/routine care/registry" }
