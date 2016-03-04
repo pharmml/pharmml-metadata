@@ -1,0 +1,986 @@
+ <http://www.ddmore.org/ontologies/metadataeur#b116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b117>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pharmaco-economic" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b138>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006015>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Ophthalmology" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> <http://www.w3.org/2000/01/rdf-schema#label> "has type of value sets" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b2>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b130>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b2>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001023>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "CNS" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b189>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In silico" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Dose & Schedule Selection and Label Recommendation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b159>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In silico" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b50> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006001>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "estimation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Anti-infectives"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b82> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006034>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b95> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Candidate Comparison, Selection, Human Dose Prediction" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b192>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006008>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b193>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In vivo"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.w3.org/2000/01/rdf-schema#label> "description of model"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "conditional". 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the description of this model; when automatically input per the model's PharmML source, the (string) value of ct:Description" .
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> <http://www.w3.org/2000/01/rdf-schema#label> "has source for entry"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> <http://www.w3.org/2000/01/rdf-schema#label> "has modality for entry" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> <http://www.w3.org/2000/01/rdf-schema#label> "has enabled status" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices> <http://www.w3.org/2000/01/rdf-schema#label> "has range of choices"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "list" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.w3.org/2000/01/rdf-schema#label> "therapeutic area" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_CONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a specific area of application for the model" .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b10> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b2> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b11> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b5> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b8> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b1> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b7> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b13> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b4> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b0> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b12> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b3> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b6> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b9> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.w3.org/2000/01/rdf-schema#label> "has values for display" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b139>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006018>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b5>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b133>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b5>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006021>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b8>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b136>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b8>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006013>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b1>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b129>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b1>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006016>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b7>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b135>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b7>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006023>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b141>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_00060025> .
+ <http://www.ddmore.org/ontologies/metadataeur#b4>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b132>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b4>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006020>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b0>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b128>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b0>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001024>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b140>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006024>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b131>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b3>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006019>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b6>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b134>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b6>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006022>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b9>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b137>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b9>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000036>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b96> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006028>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b97> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Study Design Optimization" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hassymbid>  <http://www.w3.org/2000/01/rdf-schema#label> "nature of research" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hassymbid>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hassymbid>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between an element in a PharmML model and its symbIb. TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#b171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-uses-software> <http://www.w3.org/2000/01/rdf-schema#label> "estimation software" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-uses-software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-uses-software> <http://www.w3.org/2000/01/rdf-schema#comment> "link between an estimation step and the software used to perform it natively" .  
+ <http://www.ddmore.org/ontologies/metadataeur#b141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Vaccines"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-stage> <http://www.w3.org/2000/01/rdf-schema#label> "clinical stage of model" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-stage> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of clinical stage". 
+ <http://www.ddmore.org/ontologies/webannotationtool#slot-has-ontology-source> <http://www.w3.org/2000/01/rdf-schema#label> "disease ontology" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#slot-has-ontology-source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Study Design Optimization" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pediatrics, Elderly, Obese"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b120>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006040>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b121>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Social-economic"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b76> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006028>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.3" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Metabolism" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Social-economic"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-context> <http://www.w3.org/2000/01/rdf-schema#label> "experimental context of model" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-clinical-context> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of experimental context" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b180>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006004>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b181>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Fundamental/Basic research"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.w3.org/2000/01/rdf-schema#label> "Long technical model description" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Please add the exact name of the file containing the long description. You can upload it later."  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "7"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.7" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot>  <http://www.w3.org/2000/01/rdf-schema#label> "has associated metadata property" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.w3.org/2000/01/rdf-schema#label> "long description of model" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> <upload-base/optional>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a description of this model; this description includes detailed discussions or material" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.w3.org/2000/01/rdf-schema#label> "Overall description of the model – Bookkeeping"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description>. 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#contains>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i8>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source> <pkpd:clinical-trial> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i8>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data>  <pkpd:continuous-data>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "list" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.w3.org/2000/01/rdf-schema#label> "data source type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "automatic" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_CONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a data set and a generic type of data source" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  _:b0  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  _:b1  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source>  <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  _:b2  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data>  <http://www.w3.org/2000/01/rdf-schema#label> "data type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between either kind of data model and a generic type of data"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b88> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006040>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.3" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Immunology" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascomptype> <http://www.w3.org/2000/01/rdf-schema#label> "element has compartment type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascomptype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascomptype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a derivative variable element in a PharmML model and the type of compartment it is associated with. TRANSITORY" .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-context> <http://www.w3.org/2000/01/rdf-schema#label> "experimental context of data" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-context> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of experimental context applies to a dataset in relation to an estimation step" .
+ <http://www.ddmore.org/ontologies/metadataeur#b105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical & design Viability"  . 
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Ontology"  . 
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.w3.org/2000/01/rdf-schema#label> "has disease or indications"  . 
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#slot-has-ontology-source> "OLS_doid"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#slot-has-alternate-freetext>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition-freetext> .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#slot-has-ontology-source-id>  "doid" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  <http://www.ddmore.org/ontologies/webannotationtool#slot-has-ontology-source-resource>  "OLS" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#slot-has-alternate-freetext>  <http://www.w3.org/2000/01/rdf-schema#label> "has freetext variant"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#slot-has-alternate-freetext>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "population characteristic" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "limitations of models"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the description of its range of application and limitations in textual form." .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-population-characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the characteristics of the population associated with the model's application. A typical entry is phenotypical but characterises any relevant or intended group."  .
+ <http://www.ddmore.org/ontologies/metadataeur#b177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "6"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "simulation" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot> <http://www.w3.org/2000/01/rdf-schema#label> "contains associated metadata property" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-design-type> <http://www.w3.org/2000/01/rdf-schema#label> "design type". 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-design-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-design-type> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and a specific type of design" .
+ <http://www.ddmore.org/ontologies/metadataeur#b147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b110>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006035>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b111>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Patient Population Selection and Bridging between Population" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarlevtype> <http://www.w3.org/2000/01/rdf-schema#label> "element has variability level type"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarlevtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarlevtype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a random variable element in a PharmML model and the type of variability level it is associated with. TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#b139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Respiratory". 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-input-type> <http://www.w3.org/2000/01/rdf-schema#label> "input type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-input-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-input-type> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and the type of input for the administered drug studied in the model" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.w3.org/2000/01/rdf-schema#label> "Therapeutic/disease area" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2.3" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.w3.org/2000/01/rdf-schema#label> "Context of use"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "This section will capture information regarding why the model was developed and in what context. It does not describe potential future use of the model."  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.ddmore.org/ontologies/webannotationtool#containsMetadataSlot>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question>  .
+ <http://www.ddmore.org/ontologies/metadataeur#b83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Patient Population Selection and Bridging between Population (Pediatrics, Elderly, Obese)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Diagnostics". 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted> <http://www.w3.org/2000/01/rdf-schema#label> "source reference" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-quoted> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a publication reference (in any bibliographic style) for a source of the model"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b69> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006002>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "optimisation" . 
+ <http://www.pharmml.org/2013/10/example5.xml#i10>  <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-uses-software> <pkpd:monolix> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i10>  <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-parameter-estimation-uses-algorithm> <pkpd:saem> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-parameter-estimation-uses-algorithm>  <http://www.w3.org/2000/01/rdf-schema#label> "estimation algorithm"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-parameter-estimation-uses-algorithm>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#modelrun-parameter-estimation-uses-algorithm>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between an estimation step and the algorithm used in it" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Cardiovascular"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b83> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006035>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b191>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In vitro"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b161>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000051>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b162>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In vitro"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b194>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006009>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b195>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Early clinical development (Phases I and II)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.w3.org/2000/01/rdf-schema#label> "Model Name" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "not more than 150 characters." . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.3" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.w3.org/2000/01/rdf-schema#label> "name of model" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the name of this model; when automatically input per the model's PharmML source, the (string) value of ct:Name" .
+ <http://www.ddmore.org/ontologies/metadataeur#b100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b101>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Similarity Assessment"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "MVC, Biosimilar, Formulation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b98> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006029>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b99> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Variability sources in PK and PD" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-six>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-six>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "6"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-eur> <http://www.w3.org/2000/01/rdf-schema#label> "EUR version 5.4"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b173>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006011>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b174>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Life cycle management"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.w3.org/2000/01/rdf-schema#label> "source id" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> <upload-base/optional>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_UNCONSTRAINED_CHOICE" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a publication identifier for a source of the model" .
+ <http://www.ddmore.org/ontologies/webannotationtool#preferredresourceinrange> <http://www.w3.org/2000/01/rdf-schema#label> "has values for display" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#preferredresourceinrange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b143>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006003>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b144>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Discovery stage"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Variability sources in PK and PD (CYP, Renal, Biomarkers)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b113>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Disease Progression model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b122>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006041>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b123>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Therapeutic Drug Monitoring"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> <http://www.w3.org/2000/01/rdf-schema#label> "filename"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the name of the PharmML file for the model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b77> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006029>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b185>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Lead Generation & Optimization". 
+ <http://www.ddmore.org/ontologies/metadataeur#b185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.3" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b155>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000050>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b156>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Preclinical development" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-observation-level> <http://www.w3.org/2000/01/rdf-schema#label> "observation level" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-observation-level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-observation-level> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a dataset in a model definition and a type of data level applies specifically to data in relation to a model definition multiple entries allowed" .
+ <http://www.ddmore.org/ontologies/metadataeur#b137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Oncology"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Therapeutic Drug Monitoring"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose> <http://www.w3.org/2000/01/rdf-schema#label> "purpose"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-phenomenal-purpose> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a specific purpose for which the model is developed"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b125>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Diagnostic model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b182>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006005>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b183>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Target selection & Validation" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-administration-profile-attribute> <http://www.w3.org/2000/01/rdf-schema#label> "dosing regimen"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-administration-profile-attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-administration-profile-attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and a specific type of dosing regimen of administration for a drug studied in the model" .
+ <http://www.pharmml.org/2013/10/example5.xml#i9>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data>  <pkpd:continuous-data>  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.w3.org/2000/01/rdf-schema#label> "correspondent" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "automatic" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b89> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006041>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b197>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Approval phase/Registration trial (Phases III)"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Diagnostic model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b167>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006009>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b168>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Early clinical development (Phases I and II)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b184>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006006>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-rationale>  <http://www.w3.org/2000/01/rdf-schema#label> "rationale" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-rationale>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-rationale>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the reason for which the model is deemed significant. In the context of a repository, this link allows accounting for the reasons for which the model has been submitted to its repository." .
+ <http://www.ddmore.org/ontologies/metadataeur#b30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b90> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006042>. 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.w3.org/2000/01/rdf-schema#label> "Short description of the final model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Need to describe the final model key features (max 200 characters)." . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/metadataeur#section-position> "6"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.6" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.w3.org/2000/01/rdf-schema#label> "short description of model"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a description of this model; this description provides an account of the key features of the final model in the modeller's words" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b107>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Comparator/Standard of Care Differentiation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical & Commercial Viability" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b179>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Discovery stage"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "estimation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#4-1-section-two-two> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "tree" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.w3.org/2000/01/rdf-schema#label> "nature of research" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_CONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of research and/or development context in which the model has been produced."  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#preferredresourceinrange> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue-query>  "[OWLKB]/subhierarchy/pharmaceutical%20research%20activity".
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b64> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b58> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b65> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b59> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b60> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b66> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b61> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b67> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b62> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b63> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b57> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueranked>  <http://www.ddmore.org/ontologies/metadataeur#b68> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b149>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006005>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b150>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Target selection & Validation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b112>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006036>. 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.w3.org/2000/01/rdf-schema#label> "model derived only from literature"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b119>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pharmaco-epidemiologic" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Rheumatology" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-interpreted-type> <http://www.w3.org/2000/01/rdf-schema#label> "generic type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-interpreted-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-interpreted-type> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of models selected from a relevant and limited generic typology"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Endocrinology" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Disease Progression model" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.w3.org/2000/01/rdf-schema#label> "Task execution"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "5"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b71> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006000>. 
+ <http://www.pharmml.org/2013/10/example5.xml#i11>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit> <uo:0000016> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit> <http://www.w3.org/2000/01/rdf-schema#comment> "generic link between any model element bearing unit information and a unit of measurement"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b84> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006036>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "list" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.w3.org/2000/01/rdf-schema#label> "tasks in scope"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_CONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and its relevant modelling tasks." . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b52> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b53> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b54> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b51> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b55> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b56> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#preferredresourceinrange> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b70> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006000>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b72> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006001>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b73> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006002>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.w3.org/2000/01/rdf-schema#label> "Design and Data"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b196>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006010>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvartype> <http://www.w3.org/2000/01/rdf-schema#label> "element has parameter type"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvartype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvartype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a variable element in a PharmML model and a type relevant to qualify variables (e.g., derived). TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.w3.org/2000/01/rdf-schema#label> "Discrepancy between model shared and original publication" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "If the model is not implemented as in the original publication, please describe the differences and the reasons: " .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/metadataeur#section-position> "10"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.10" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.w3.org/2000/01/rdf-schema#label> "description of discrepancies between source and implementation" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b100>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006030>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith>  <http://www.w3.org/2000/01/rdf-schema#label> "is annotatable with" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Similarity Assessment (MVC, Biosimilar, Formulation)"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hastranstype> <http://www.w3.org/2000/01/rdf-schema#label> "element has transformation model type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hastranstype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hastranstype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a continuous covariate element in a PharmML model and the type of transformation it is associated with. TRANSITORY"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b124>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006042>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b78> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006030>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "list" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.w3.org/2000/01/rdf-schema#label> "modelling question" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_CONSTRAINED_CHOICE"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a specific, possibly complex topic describing the specific question the model intends to address"  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b22> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b16> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b28> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b23> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b17> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b29> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b30> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b24> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b18> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b31> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b25> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b19> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b20> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b15> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b14> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b26> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b27> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue>  <http://www.ddmore.org/ontologies/metadataeur#b21> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#preferredresourceinrange> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b34> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b46> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b41> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b35> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b47> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b42> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b36> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b48> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b43> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b37> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b49> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b44> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b33> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b32> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b39> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b45> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b38> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips> <http://www.ddmore.org/ontologies/metadataeur#b40> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Veterinary" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b186>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000050>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b187>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Preclinical development" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-stage>  <http://www.w3.org/2000/01/rdf-schema#label> "clinical stage of data" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-stage>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#data-clinical-stage>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a type of clinical stage applies to a dataset in relation to an estimation step" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.w3.org/2000/01/rdf-schema#label> "Modelling context description" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Need to describe the modelling context or why the model was built (max 450 words)" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description>. 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "5"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.5" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b91> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006043>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-of-context>  <http://www.w3.org/2000/01/rdf-schema#label> "description of modelling context" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-of-context>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-of-context>  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-of-context>  <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-of-context>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a description of the modelling context for the model" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasunit> <http://www.w3.org/2000/01/rdf-schema#label> "element has unit" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasunit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasunit> <http://www.w3.org/2000/01/rdf-schema#comment> "link between an element in a PharmML model and its associated unit. Duplicate of initial has-unit. TRANSITORY" .  
+ <http://www.ddmore.org/ontologies/metadataeur#b73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "optimisation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b114>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006037>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b115>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical end-point" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.w3.org/2000/01/rdf-schema#label> "Model(s)"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "If the model is used only for simulations then this section describes the simulation scenario." .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-eur>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "4"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.w3.org/2000/01/rdf-schema#label> "Publication identification"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.] or Page abstr [for instance: 2294]" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/metadataeur#section-position> "2"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Gastroenterology" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical end-point" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.w3.org/2000/01/rdf-schema#label> "Modelling task in scope" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "5"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2.5" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b85> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006037>. 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue-cachedtree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2.3" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#observation-model-type-of-data> <http://www.w3.org/2000/01/rdf-schema#label> "data type for observation" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#observation-model-type-of-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#observation-model-type-of-data> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a dataset in a model definition and a generic type of data applies specifically to data in relation to a model definition"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b198>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006011>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b199>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Life cycle management"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b103>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Combination Therapy Dose Selection"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspmltype> <http://www.w3.org/2000/01/rdf-schema#label> "element has PharmML type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspmltype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspmltype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between an element in a PharmML model and a type relevant to qualify such elements. TRANSITORY".
+ <http://www.ddmore.org/ontologies/metadataeur#b37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b102>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006031>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Combination Therapy Dose Selection"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue-query> <http://www.w3.org/2000/01/rdf-schema#label> "has query to retrieve display" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue-query> <http://www.w3.org/2000/01/rdf-schema#label> "has cached tree-like hierarchy of values"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalue-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b126>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006043>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b127>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Veterinary" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b79> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006031>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Risk & Benefit Characterization, Outcome Prediction (Clinical & design Viability)" .
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.w3.org/2000/01/rdf-schema#label> "model implements literature"  . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "user" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.w3.org/2000/01/rdf-schema#label> "Nature of research" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/metadataeur#section-position> "2"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2.2" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b80> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006032>. 
+ <http://www.ddmore.org/ontologies/metadataeur#4-1-section-two-three>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-route-of-administration-attribute> <http://www.w3.org/2000/01/rdf-schema#label> "administration route"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-route-of-administration-attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-route-of-administration-attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and a specific type of route of administration for a drug studied in the model"  .
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips>  <http://www.w3.org/2000/01/rdf-schema#label> "has values and tips for display" . 
+ <http://www.ddmore.org/ontologies/webannotationtool#displayedvalueandtips>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b75> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006027>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b74> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006026>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b86> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006038>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b116>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006038>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b94> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006027>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b92> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006026>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b106>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006033>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b87> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006039>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b118>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006039>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b104>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006032>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b81> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006033>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b108>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006034>. 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.w3.org/2000/01/rdf-schema#label> "Model authors and affiliation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "authors as stated in the publication or if not published, contributors" .  
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "4"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.4" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.w3.org/2000/01/rdf-schema#label> "author of model"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#fillability-source> "conditional". 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#fillability-mode> "always" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "MULTIPLE_UNCONSTRAINED_CHOICE" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and the name (string) of the author of the PharmML file for the model"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b93> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Mechanistic Understanding" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b188>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006007>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-formulation-type> <http://www.w3.org/2000/01/rdf-schema#label> "formulation type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-formulation-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-formulation-type> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and the type of formulation for the administered drug studied in the model" .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasinterpotype>  <http://www.w3.org/2000/01/rdf-schema#label> "element has interpolation model type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasinterpotype>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasinterpotype>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a continuous covariate element in a PharmML model and the type of interpolation it is associated with. TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#b108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b109>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Dose & Schedule Selection and Label Recommendation" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Mechanistic Understanding" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.w3.org/2000/01/rdf-schema#label> "Disease or Indications" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "4"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2.4" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b152>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006006>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b153>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Lead Generation & Optimization". 
+ <http://www.ddmore.org/ontologies/metadataeur#b134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Haematology". 
+ <http://www.ddmore.org/ontologies/metadataeur#b86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pharmaco-economic" . 
+ <http://www.pharmml.org/2013/10/example5.xml#i13>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-unit> <uo:0000016> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b190>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000051>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b178>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006003>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b200>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006012>. 
+ <http://www.pharmml.org/2013/10/example5.xml#i6>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-interpreted-type> <pkpd:tumour-growth> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i6>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism>  <pkpd:ode>  . 
+ <http://www.pharmml.org/2013/10/example5.xml#i6>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism>  <pkpd:algebraic-equation> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i6>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-phenomenal-purpose> <pkpd:oncology> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism> <http://www.w3.org/2000/01/rdf-schema#label> "maths" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a generic type of mathematical formalism used in that model"  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-combination> <http://www.w3.org/2000/01/rdf-schema#label> "drug therapy" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-combination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-combination> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the trial design of a model and the type of therapy for the drug (or drug combination) studied in the model" .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type>  <http://www.w3.org/2000/01/rdf-schema#label> "sampling type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type>  <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource>  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type>  <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.pharmml.org/ontology/PHARMML_0000001> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-sampling-type>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and a sampling type, for example: longitudinal rich, longitudinal sparse, 1 time point."  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <http://www.w3.org/2000/01/rdf-schema#label> "drug name" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the trial design of a model and the drug(s) studied in the model"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b164>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006008>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b165>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "In vivo"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "CYP, Renal, Biomarkers" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b201>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical research & Therapeutic use" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b105>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Risk & Benefit Characterization, Outcome Prediction" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b176>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006012>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b177>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Clinical research & Therapeutic use" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#estimation-model-type-of-data> <http://www.w3.org/2000/01/rdf-schema#label> "data type for estimation" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#estimation-model-type-of-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#estimation-model-type-of-data> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a dataset in an estimation step and a generic type of data" .  
+ <http://www.ddmore.org/ontologies/metadataeur#b145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b146>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006004>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b147>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Fundamental/Basic research"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "6"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasassocpar> <http://www.w3.org/2000/01/rdf-schema#label> "element has associated parameter" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasassocpar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasassocpar> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a random variable element in a PharmML model and its associated parameter (another element in that model). TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#b81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Comparator/Standard of Care Differentiation (Clinical & Commercial Viability)"  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-study-type> <http://www.w3.org/2000/01/rdf-schema#label> "study type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-study-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-study-type> <http://www.w3.org/2000/01/rdf-schema#comment> "link between the relevant part of the trial design of a model and a specific type of study"  .
+ <http://www.ddmore.org/ontologies/metadataeur#b157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b158>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006007>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "simulation" . 
+ <http://www.pharmml.org/2013/10/example5.xml#i1>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-pharmml-filename> "example5.xml" . 
+ <http://www.pharmml.org/2013/10/example5.xml#i1>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-formalism>  <pkpd:mixed-effect> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i1>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-publication-source-quoted> "A Tumor Growth Inhibition Model for Low-Grade Glioma Treated with Chemotherapy or Radiotherapy . Benjamin Ribba, Gentian Kaloshi, Mathieu Peyre, et al. Clin Cancer Res Published OnlineFirst July 3, 2012."  .
+ <http://www.pharmml.org/2013/10/example5.xml#i1>  <http://www.pharmml.org/2013/10/PharmMLMetadata#has-publication-source-external-id> "DOI: 10.1158/1078-0432.CCR-12-0084"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.w3.org/2000/01/rdf-schema#label> "Model code origin" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model derived only from literature ? (Y/N) or N/A." . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>  .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "8"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.8" . 
+ <http://www.ddmore.org/ontologies/metadataeur#b169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b170>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006010>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.ddmore.org/ontologies/metadataeur#b171>. 
+ <http://www.ddmore.org/ontologies/metadataeur#b170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Approval phase/Registration trial (Phases III)"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.w3.org/2000/01/rdf-schema#label> "Corresponding Author or Submitter (one Account)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/metadataeur#section-position> "1"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.1" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarmodtype> <http://www.w3.org/2000/01/rdf-schema#label> "element has variability model type"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarmodtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasvarmodtype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a random variable element in a PharmML model and the type of variability model it is associated with. TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#b75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Candidate Comparison, Selection, Human Dose Prediction" . 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Model" . 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description>. 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose> . 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition>  .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> . 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>  .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> . 
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question>  .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> .
+ <http://www.pharmml.org/ontology/PHARMMLO_0000001> <http://www.ddmore.org/ontologies/webannotationtool#annotatablewith> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> . 
+ <http://www.ddmore.org/ontologies/metadataeur#b87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ <http://www.ddmore.org/ontologies/metadataeur#b87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pharmaco-epidemiologic" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascovtype> <http://www.w3.org/2000/01/rdf-schema#label> "element has covariate type"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascovtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hascovtype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a covariate element in a PharmML model and a type relevant to qualify covariates (e.g., continuous or categorical). TRANSITORY --- redundant with kinds of covariate" .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasdistribtype>  <http://www.w3.org/2000/01/rdf-schema#label> "element has distribution type" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasdistribtype>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasdistribtype>  <http://www.w3.org/2000/01/rdf-schema#comment> "link between a random variable element in a PharmML model and the type of distribution it is associated with. TRANSITORY" .
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-administration-profile-attribute>  <pkpd:multiple-doses> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-route-of-administration-attribute>  <pkpd:iv-bolus> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-drug-combination> <pkpd:multiple-drugs> . 
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <DB:01206>  . 
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <CHEBI:71417>. 
+ <http://www.pharmml.org/2013/10/example5.xml#i7>  <http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-drug> <CHEBI:28445>. 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasint> <http://www.w3.org/2000/01/rdf-schema#label> "element has interpretation"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-hasint> <http://www.w3.org/2000/01/rdf-schema#comment> "link between an element in a PharmML model and its interpretation. TRANSITORY"  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-indication> <http://www.w3.org/2000/01/rdf-schema#label> "indication" . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-indication> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a model and indications or diseases related to the phenomenon modelled."  .
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspartype> <http://www.w3.org/2000/01/rdf-schema#label> "element has parameter type"  . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspartype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> . 
+ <http://www.pharmml.org/2013/10/PharmMLMetadata#elt-haspartype> <http://www.w3.org/2000/01/rdf-schema#comment> "link between a parameter element in a PharmML model and a type relevant to qualify parameters (e.g., individual or population). TRANSITORY" .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.w3.org/2000/01/rdf-schema#label> "Context of model development" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/metadataeur#section-position> "1"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/metadataeur#section-number>  "2.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.w3.org/2000/01/rdf-schema#label> "Model compliance with original publication" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model implemented as in the original publication? (Y/N)" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "9"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "1.9" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.w3.org/2000/01/rdf-schema#label> "Design overview"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "1"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "3.1" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.w3.org/2000/01/rdf-schema#label> "Type(s) of data"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#hasMetadataSlot> <http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source> .
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-position> "3"  . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-of> <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one> . 
+ <http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/metadataeur#section-number>  "3.1.3" . 
+ _:b0  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b3  . 
+ _:b0  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000411>. 
+ _:b3  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ _:b3  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Observations" . 
+ _:b1  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b4  . 
+ _:b1  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000413>. 
+ _:b4  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ _:b4  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Simulations". 
+ _:b2  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b5  . 
+ _:b2  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000412>. 
+ _:b5  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>  . 
+ _:b5  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Published data" .
