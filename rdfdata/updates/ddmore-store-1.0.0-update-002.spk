@@ -1,0 +1,8 @@
+INSERT DATA { 
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> <http://www.ddmore.org/ontologies/metadataeur#section-position> "1"  .
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> <http://www.ddmore.org/ontologies/metadataeur#section-position> "2"  .
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.ddmore.org/ontologies/metadataeur#section-position> "3"  .
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.ddmore.org/ontologies/metadataeur#section-position> "4"  .
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.ddmore.org/ontologies/metadataeur#section-position> "5"  
+}
+ 
