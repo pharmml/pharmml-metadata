@@ -1,0 +1,30 @@
+DELETE DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" }
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_CONSTRAINED_CHOICE"  . 
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "listText" }
+
+DELETE DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_UNCONSTRAINED_CHOICE"  . 
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "Text" }
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-choices>  "SINGLE_CONSTRAINED_CHOICE"  . 
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "listText" }
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "Yes" .
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "No" .
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "NA" .
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "Yes" .
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "No" .
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled>
+<http://www.ddmore.org/ontologies/webannotationtool#displayedvalueText> "NA" 
+}
