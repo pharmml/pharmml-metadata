@@ -13,7 +13,7 @@ DELETE DATA
 
 <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.w3.org/2000/01/rdf-schema#label>  "Disease or Indications" .
 
-<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Modelling task in scope" 
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Task execution" 
 }
 
 INSERT DATA
@@ -30,6 +30,6 @@ INSERT DATA
 
 <http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.w3.org/2000/01/rdf-schema#label>  "Disease/indications" .
 
-<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Task Execution" 
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Task Execution" 
 }
 
