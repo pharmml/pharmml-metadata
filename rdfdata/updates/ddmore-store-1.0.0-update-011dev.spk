@@ -1,0 +1,25 @@
+INSERT DATA {
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-one> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-three> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-two> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-one> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-six> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-five> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-four> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true".
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled> "true"
+}
