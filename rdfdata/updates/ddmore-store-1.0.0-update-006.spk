@@ -1,0 +1,35 @@
+
+DELETE DATA
+{
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.w3.org/2000/01/rdf-schema#label>  "Overall description of the model – Bookkeeping" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.w3.org/2000/01/rdf-schema#label>  "Model Name" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.w3.org/2000/01/rdf-schema#label>  "Model code origin" .
+        
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten>  <http://www.w3.org/2000/01/rdf-schema#label>  "Discrepancy between model shared and original publication" .
+        
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.w3.org/2000/01/rdf-schema#label>  "Context of use" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.w3.org/2000/01/rdf-schema#label>  "Disease or Indications" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Modelling task in scope" 
+}
+
+INSERT DATA
+{
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.w3.org/2000/01/rdf-schema#label>  "Bookkeeping" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.w3.org/2000/01/rdf-schema#label>  "Model name" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.w3.org/2000/01/rdf-schema#label>  "Model derived only from the literature" .
+        
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten>  <http://www.w3.org/2000/01/rdf-schema#label>  "Discrepancy between implemented model and original publication" .
+        
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two>  <http://www.w3.org/2000/01/rdf-schema#label>  "Context of Use" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.w3.org/2000/01/rdf-schema#label>  "Disease/indications" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-five>  <http://www.w3.org/2000/01/rdf-schema#label>  "Task Execution" 
+}
+
