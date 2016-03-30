@@ -1,0 +1,12 @@
+DELETE DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "listText" }
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "TEXTLIST" }
+
+DELETE DATA { 
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "listText" }
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#displayValueType> "TEXTLIST" }
+
