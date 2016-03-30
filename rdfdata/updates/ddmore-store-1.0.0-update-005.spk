@@ -1,0 +1,55 @@
+DELETE DATA {
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.]  or Page abstr [for instance: 2294]" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "not more than 150 characters." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "authors as stated in the publication or if not published, contributors" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Need to describe the modelling context or why the model was built (max 450 words)" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Need to describe the final model key features (max 200 characters)." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Please add the exact name of the file containing the long description. You can upload it later." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model derived only from literature ? (Y/N) or N/A." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model implemented as in the original publication? (Y/N)" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "If the model is not implemented as in the original publication, please describe the differences and the reasons: " .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "as defined in trial protocol/routine care/registry" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" 
+}
+
+INSERT DATA {
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Overall description of the model" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.]" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Name of the model (max 150 characters)." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Authors as stated in the publication or, if not published, the contributors." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-five>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Modelling context or reasons for the implementation of the model (max 450 words)." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-six>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Model key features (max 200 characters)." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-seven>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Either free text or the exact name of a file (which can be uploaded later) containing a comprehensive technical model description." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-eight>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model completely derived from the publication or also based on the submitter expertise/data?" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-nine>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Is the model implemented as reported in the original publication?" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-ten>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "What are the differences between the model in the repository and the one in the journal? What are the reasons for those differences? If no publication, skip." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-two-four>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Select the most relevant disease/indication (refer to trial protocol/routine care/registry). If not applicable, select N/A." .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "" .
+
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-three-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." 
+}
