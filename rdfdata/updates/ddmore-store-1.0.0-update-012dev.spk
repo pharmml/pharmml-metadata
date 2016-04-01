@@ -1,0 +1,32 @@
+INSERT DATA {
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-source-discrepancies-freetext> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.ddmore.org/ontologies/webannotationtool#model-implementation-conforms-to-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-related-to-disease-or-condition> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-author> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-type-of-data-source> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-publication-source-external-id> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.ddmore.org/ontologies/webannotationtool#model-has-correspondent> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-modelling-question> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-research-stage> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-field-purpose> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-name> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-long> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-tasks-in-scope> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.ddmore.org/ontologies/webannotationtool#model-origin-of-code-in-literature-controlled> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" .
+
+<http://www.pharmml.org/2013/10/PharmMLMetadata#model-has-description-short> <http://www.ddmore.org/ontologies/webannotationtool#fillability-enabled>  "true" }
