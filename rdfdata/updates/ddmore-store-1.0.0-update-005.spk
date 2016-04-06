@@ -27,7 +27,7 @@ DELETE DATA {
 }
 
 INSERT DATA {
-<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Overall description of the model" .
+<http://www.ddmore.org/ontologies/metadataeur#5-4-section-one>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Overall description of the model." .
 
 <http://www.ddmore.org/ontologies/metadataeur#5-4-section-one-two>  <http://www.ddmore.org/ontologies/webannotationtool#tooltip>  "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.]" .
 
