@@ -121,9 +121,9 @@ ps:model-related-to-disease-or-condition
 
 ps:model-has-population-characteristic
         a             rdf:Property ;
-        rdfs:comment  "link between a model and the characteristics of the population associated with the model's application. A typical entry is phenotypical but characterises any relevant or intended group." , "link between a model and the description of its range of application and limitations in textual form." ;
+        rdfs:comment  "link between a model and the characteristics of the population associated with the model's application. A typical entry is phenotypical but characterises any relevant or intended group." ;
         rdfs:domain   pmlo:PHARMML_0000001 ;
-        rdfs:label    "limitations of models" , "population characteristic" ;
+        rdfs:label    "population characteristic" ;
         rdfs:range    rdfs:Literal .
 
 wat:containsMetadataSlot
@@ -398,7 +398,7 @@ eur:5-4-section-one-two
         wat:tooltip              "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.]" .
 
 eur:5-4-section-two-five
-        rdfs:label               "Task Execution" , "Modelling task in scope" ;
+        rdfs:label               "Modelling task in scope" ;
         eur:section-number       "2.5" ;
         eur:section-of           eur:5-4-section-two ;
         eur:section-position     "5" ;
@@ -438,7 +438,7 @@ wat:fillability-enabled
 
 wat:displayedvalue-query
         a           rdf:Property ;
-        rdfs:label  "has cached tree-like hierarchy of values" , "has query to retrieve display" .
+        rdfs:label  "has query to retrieve display" .
 
 ps:has-unit  a        rdf:Property ;
         rdfs:comment  "generic link between any model element bearing unit information and a unit of measurement" ;
