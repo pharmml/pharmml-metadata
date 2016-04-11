@@ -614,7 +614,7 @@ eur:5-4-section-one  rdfs:label  "Bookkeeping" ;
         eur:section-position     "1" ;
         wat:contains             wat:model-origin-of-code-in-literature-controlled , wat:model-has-correspondent , ps:model-has-name , ps:model-has-author , ps:model-has-description-short , wat:model-implementation-source-discrepancies-freetext , wat:model-implementation-conforms-to-literature-controlled , ps:model-has-description-long , ps:model-has-publication-source-external-id , ps:model-has-description ;
         wat:fillability-enabled  "true" ;
-        wat:tooltip              "Overall description of the model" .
+        wat:tooltip              "Overall description of the model." .
 
 ps:estimation-model-type-of-data
         a             rdf:Property ;
