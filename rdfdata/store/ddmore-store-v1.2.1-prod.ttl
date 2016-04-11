@@ -1,0 +1,733 @@
+@prefix eur:   <http://www.ddmore.org/ontologies/metadataeur#> .
+@prefix ps:    <http://www.pharmml.org/2013/10/PharmMLMetadata#> .
+@prefix pmlo:  <http://www.pharmml.org/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wat:   <http://www.ddmore.org/ontologies/webannotationtool#> .
+
+eur:5-4-section-three-one-three
+        rdfs:label               "Type(s) of data" ;
+        eur:section-number       "3.1.3" ;
+        eur:section-of           eur:5-4-section-three-one ;
+        eur:section-position     "3" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-type-of-data-source ;
+        wat:tooltip              "" .
+
+wat:displayValueType  a  rdf:Property ;
+        rdfs:label  "has type of value sets" .
+
+ps:model-has-description
+        a                        rdf:Property ;
+        rdfs:comment             "link between a model and the description of this model; when automatically input per the model's PharmML source, the (string) value of ct:Description" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "description of model" ;
+        rdfs:range               rdfs:Literal ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "conditional" .
+
+ps:model-field-purpose
+        a                        rdf:Property ;
+        rdfs:comment             "link between a model and a specific area of application for the model" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "therapeutic area" ;
+        rdfs:range               rdfs:Resource ;
+        wat:displayValueType     "list" ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006018> "Respiratory" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001023> "CNS" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006021> "Gastroenterology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006013> "Metabolism" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006016> "Cardiovascular" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006023> "Immunology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006015> "Ophthalmology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_00060025> "Vaccines" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006020> "Endocrinology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001024> "Anti-infectives" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006024> "Rheumatology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006019> "Diagnostics" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006022> "Haematology" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000036> "Oncology" ) ;
+        wat:fillability-choices  "MULTIPLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "optional" ;
+        wat:fillability-source   "user" .
+
+ps:elt-hassymbid  a   rdf:Property ;
+        rdfs:comment  "link between an element in a PharmML model and its symbIb. TRANSITORY" ;
+        rdfs:label    "nature of research" .
+
+ps:modelrun-uses-software
+        a             rdf:Property ;
+        rdfs:comment  "link between an estimation step and the software used to perform it natively" ;
+        rdfs:label    "estimation software" .
+
+ps:model-clinical-stage
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a type of clinical stage" ;
+        rdfs:label    "clinical stage of model" .
+
+wat:slot-has-ontology-source
+        a           rdf:Property ;
+        rdfs:label  "disease ontology" .
+
+ps:model-clinical-context
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a type of experimental context" ;
+        rdfs:label    "experimental context of model" .
+
+eur:5-4-section-one-seven
+        rdfs:label               "Long technical model description" ;
+        eur:section-number       "1.7" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "7" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-has-description-long ;
+        wat:tooltip              "Either free text or the exact name of a file (which can be uploaded later) containing a comprehensive technical model description." .
+
+eur:5-4-section-three-one
+        rdfs:label               "Design overview" ;
+        eur:section-number       "3.1" ;
+        eur:section-of           eur:5-4-section-three ;
+        eur:section-position     "1" ;
+        wat:fillability-enabled  "false" ;
+        wat:tooltip              "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+
+ps:elt-hascomptype  a  rdf:Property ;
+        rdfs:comment  "link between a derivative variable element in a PharmML model and the type of compartment it is associated with. TRANSITORY" ;
+        rdfs:label    "element has compartment type" .
+
+ps:data-clinical-context
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a type of experimental context applies to a dataset in relation to an estimation step" ;
+        rdfs:label    "experimental context of data" .
+
+ps:model-related-to-disease-or-condition
+        rdfs:label                    "has disease or indications" ;
+        wat:displayValueType          "Ontology" ;
+        wat:fillability-choices       "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled       "false" ;
+        wat:fillability-mode          "optional" ;
+        wat:fillability-source        "user" ;
+        wat:slot-has-alternate-freetext
+                ps:model-related-to-disease-or-condition-freetext ;
+        wat:slot-has-ontology-source  "OLS_doid" ;
+        wat:slot-has-ontology-source-id
+                "doid" ;
+        wat:slot-has-ontology-source-resource
+                "OLS" .
+
+ps:model-has-population-characteristic
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and the characteristics of the population associated with the model's application. A typical entry is phenotypical but characterises any relevant or intended group." ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "population characteristic" ;
+        rdfs:range    rdfs:Literal .
+
+wat:containsMetadataSlot
+        a           rdf:Property ;
+        rdfs:label  "contains associated metadata property" .
+
+ps:model-design-type  a  rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and a specific type of design" ;
+        rdfs:label    "design type" .
+
+ps:elt-hasvarlevtype  a  rdf:Property ;
+        rdfs:comment  "link between a random variable element in a PharmML model and the type of variability level it is associated with. TRANSITORY" ;
+        rdfs:label    "element has variability level type" .
+
+ps:model-input-type  a  rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and the type of input for the administered drug studied in the model" ;
+        rdfs:label    "input type" .
+
+eur:5-4-section-two-three
+        rdfs:label               "Therapeutic/disease area" ;
+        eur:section-number       "2.3" ;
+        eur:section-of           eur:5-4-section-two ;
+        eur:section-position     "3" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-field-purpose ;
+        wat:tooltip              "" .
+
+ps:model-has-publication-source-quoted
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a publication reference (in any bibliographic style) for a source of the model" ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "source reference" ;
+        rdfs:range    rdfs:Literal .
+
+wat:fillability-mode  a  rdf:Property ;
+        rdfs:label  "has modality for entry" .
+
+wat:hasMetadataSlot  a  rdf:Property ;
+        rdfs:label  "has associated metadata property" .
+
+wat:slot-has-alternate-freetext
+        a           rdf:Property ;
+        rdfs:label  "has freetext variant" .
+
+eur:5-4-section-one-three
+        rdfs:label               "Model name" ;
+        eur:section-number       "1.3" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "3" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-has-name ;
+        wat:tooltip              "Name of the model (max 150 characters)." .
+
+eur:5-4-section-six  eur:section-number
+                "6" ;
+        eur:section-of           eur:5-4-eur ;
+        wat:fillability-enabled  "true" .
+
+ps:model-has-publication-source-external-id
+        a                        rdf:Property ;
+        rdfs:comment             "link between a model and a publication identifier for a source of the model" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "source id" ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "optional" ;
+        wat:fillability-source   "user" .
+
+wat:preferredresourceinrange
+        a           rdf:Property ;
+        rdfs:label  "has values for display" .
+
+ps:has-pharmml-filename
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and the name of the PharmML file for the model" ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "filename" ;
+        rdfs:range    rdfs:Literal .
+
+ps:data-observation-level
+        a             rdf:Property ;
+        rdfs:comment  "link between a dataset in a model definition and a type of data level applies specifically to data in relation to a model definition multiple entries allowed" ;
+        rdfs:label    "observation level" .
+
+ps:model-phenomenal-purpose
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a specific purpose for which the model is developed" ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "purpose" ;
+        rdfs:range    rdfs:Resource .
+
+ps:model-has-administration-profile-attribute
+        a             rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and a specific type of dosing regimen of administration for a drug studied in the model" ;
+        rdfs:label    "dosing regimen" .
+
+wat:fillability-choices
+        a           rdf:Property ;
+        rdfs:label  "has range of choices" .
+
+wat:model-has-correspondent
+        rdfs:label               "correspondent" ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "automatic" .
+
+ps:model-type-of-data-source
+        a                        rdf:Property ;
+        rdfs:comment             "link between a data set and a generic type of data source" ;
+        rdfs:label               "data source type" ;
+        wat:displayValueType     "list" ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000412> "Published data" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000411> "Observations" ) ;
+        wat:displayedvalue       ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000413> "Simulations" ) ;
+        wat:fillability-choices  "MULTIPLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "automatic" .
+
+ps:model-has-rationale
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and the reason for which the model is deemed significant. In the context of a repository, this link allows accounting for the reasons for which the model has been submitted to its repository." ;
+        rdfs:label    "rationale" .
+
+eur:5-4-section-one-six
+        rdfs:label               "Short description of the final model" ;
+        eur:section-number       "1.6" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "6" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-has-description-short ;
+        wat:tooltip              "Model key features (max 200 characters)." .
+
+eur:4-1-section-two-two
+        wat:hasMetadataSlot  ps:model-research-stage .
+
+wat:model-origin-of-code-in-literature-controlled
+        a                        rdf:Property ;
+        rdfs:label               "model derived only from literature" ;
+        wat:displayValueType     "TEXTLIST" ;
+        wat:displayedvalueText   "NA" , "Yes" , "No" ;
+        wat:fillability-choices  "SINGLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "user" .
+
+ps:has-interpreted-type
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a type of models selected from a relevant and limited generic typology" ;
+        rdfs:label    "generic type" .
+
+eur:5-4-section-five  rdfs:label  "Task Execution" ;
+        eur:section-number       "5" ;
+        eur:section-of           eur:5-4-eur ;
+        eur:section-position     "5" ;
+        wat:fillability-enabled  "false" ;
+        wat:tooltip              "" .
+
+ps:model-has-description-short
+        a                        rdf:Property ;
+        rdfs:comment             "link between a model and a description of this model; this description provides an account of the key features of the final model in the modeller's words" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "short description of model" ;
+        rdfs:range               rdfs:Literal ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "user" .
+
+ps:model-tasks-in-scope
+        a                             rdf:Property ;
+        rdfs:comment                  "link between a model and its relevant modelling tasks." ;
+        rdfs:domain                   pmlo:PHARMML_0000001 ;
+        rdfs:label                    "tasks in scope" ;
+        rdfs:range                    rdfs:Resource ;
+        wat:displayValueType          "list" ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006000> "simulation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006000> "simulation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006001> "estimation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006001> "estimation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006002> "optimisation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006002> "optimisation" ) ;
+        wat:fillability-choices       "MULTIPLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled       "true" ;
+        wat:fillability-mode          "always" ;
+        wat:fillability-source        "user" ;
+        wat:preferredresourceinrange  <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> .
+
+eur:5-4-section-three
+        rdfs:label               "Design and Data" ;
+        eur:section-number       "3" ;
+        eur:section-of           eur:5-4-eur ;
+        eur:section-position     "3" ;
+        wat:fillability-enabled  "false" ;
+        wat:tooltip              "" .
+
+ps:elt-hasvartype  a  rdf:Property ;
+        rdfs:comment  "link between a variable element in a PharmML model and a type relevant to qualify variables (e.g., derived). TRANSITORY" ;
+        rdfs:label    "element has parameter type" .
+
+eur:5-4-section-one-ten
+        rdfs:label               "Discrepancy between implemented model and original publication" ;
+        eur:section-number       "1.10" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "10" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      wat:model-implementation-source-discrepancies-freetext ;
+        wat:tooltip              "What are the differences between the model in the repository and the one in the journal? What are the reasons for those differences? If no publication, skip." .
+
+wat:annotatablewith  a  rdf:Property ;
+        rdfs:label  "is annotatable with" .
+
+ps:elt-hastranstype  a  rdf:Property ;
+        rdfs:comment  "link between a continuous covariate element in a PharmML model and the type of transformation it is associated with. TRANSITORY" ;
+        rdfs:label    "element has transformation model type" .
+
+eur:5-4-section-two  rdfs:label   "Context of Use" ;
+        eur:section-number        "2" ;
+        eur:section-of            eur:5-4-eur ;
+        eur:section-position      "2" ;
+        wat:containsMetadataSlot  ps:model-modelling-question , ps:model-field-purpose , ps:model-related-to-disease-or-condition , ps:model-tasks-in-scope , ps:model-research-stage ;
+        wat:fillability-enabled   "true" ;
+        wat:tooltip               "Why the model was developed and in what context. It does not describe potential future use of the model." .
+
+ps:data-clinical-stage
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a type of clinical stage applies to a dataset in relation to an estimation step" ;
+        rdfs:label    "clinical stage of data" .
+
+eur:5-4-section-one-five
+        rdfs:label               "Modelling context description" ;
+        eur:section-number       "1.5" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "5" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-has-description ;
+        wat:tooltip              "Modelling context or reasons for the implementation of the model (max 450 words)." .
+
+ps:model-has-description-of-context
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a description of the modelling context for the model" ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "description of modelling context" ;
+        rdfs:range    rdfs:Literal .
+
+ps:elt-hasunit  a     rdf:Property ;
+        rdfs:comment  "link between an element in a PharmML model and its associated unit. Duplicate of initial has-unit. TRANSITORY" ;
+        rdfs:label    "element has unit" .
+
+wat:fillability-source
+        a           rdf:Property ;
+        rdfs:label  "has source for entry" .
+
+eur:5-4-section-four  rdfs:label  "Model(s)" ;
+        eur:section-number       "4" ;
+        eur:section-of           eur:5-4-eur ;
+        eur:section-position     "4" ;
+        wat:fillability-enabled  "false" ;
+        wat:tooltip              "If the model is used only for simulations then this section describes the simulation scenario." .
+
+eur:5-4-section-one-two
+        rdfs:label               "Publication identification" ;
+        eur:section-number       "1.2" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "2" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-has-publication-source-external-id ;
+        wat:tooltip              "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10]." .
+
+eur:5-4-section-two-five
+        rdfs:label               "Modelling task in scope" ;
+        eur:section-number       "2.5" ;
+        eur:section-of           eur:5-4-section-two ;
+        eur:section-position     "5" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-tasks-in-scope ;
+        wat:tooltip              "" .
+
+eur:5-4-eur  rdfs:label  "EUR version 5.4" .
+
+ps:model-has-description-long
+        a                        rdf:Property ;
+        rdfs:comment             "link between a model and a description of this model; this description includes detailed discussions or material" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "long description of model" ;
+        rdfs:range               rdfs:Literal ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "optional" ;
+        wat:fillability-source   "user" .
+
+wat:displayedvalue-cachedtree
+        a       rdf:Property .
+
+ps:observation-model-type-of-data
+        a             rdf:Property ;
+        rdfs:comment  "link between a dataset in a model definition and a generic type of data applies specifically to data in relation to a model definition" ;
+        rdfs:label    "data type for observation" .
+
+ps:elt-haspmltype  a  rdf:Property ;
+        rdfs:comment  "link between an element in a PharmML model and a type relevant to qualify such elements. TRANSITORY" ;
+        rdfs:label    "element has PharmML type" .
+
+wat:fillability-enabled
+        a           rdf:Property ;
+        rdfs:label  "has enabled status" .
+
+wat:displayedvalue-query
+        a           rdf:Property ;
+        rdfs:label  "has query to retrieve display" .
+
+ps:has-unit  a        rdf:Property ;
+        rdfs:comment  "generic link between any model element bearing unit information and a unit of measurement" ;
+        rdfs:label    "unit" .
+
+wat:model-implementation-conforms-to-literature-controlled
+        a                        rdf:Property ;
+        rdfs:label               "model implements literature" ;
+        wat:displayValueType     "TEXTLIST" ;
+        wat:displayedvalueText   "Yes" , "No" ;
+        wat:fillability-choices  "SINGLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "optional" ;
+        wat:fillability-source   "user" .
+
+eur:5-4-section-two-two
+        rdfs:label               "Nature of research" ;
+        eur:section-number       "2.2" ;
+        eur:section-of           eur:5-4-section-two ;
+        eur:section-position     "2" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-research-stage ;
+        wat:tooltip              "" .
+
+eur:4-1-section-two-three
+        wat:hasMetadataSlot  ps:model-field-purpose .
+
+ps:model-has-route-of-administration-attribute
+        a             rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and a specific type of route of administration for a drug studied in the model" ;
+        rdfs:label    "administration route" .
+
+ps:model-modelling-question
+        a                             rdf:Property ;
+        rdfs:comment                  "link between a model and a specific, possibly complex topic describing the specific question the model intends to address" ;
+        rdfs:domain                   pmlo:PHARMML_0000001 ;
+        rdfs:label                    "modelling question" ;
+        rdfs:range                    rdfs:Resource ;
+        wat:displayValueType          "list" ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006035> "Patient Population Selection and Bridging between Population (Pediatrics, Elderly, Obese)" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006027> "Candidate Comparison, Selection, Human Dose Prediction" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006026> "Mechanistic Understanding" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006041> "Therapeutic Drug Monitoring" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006038> "Pharmaco-economic" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006028> "Study Design Optimization" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006039> "Pharmaco-epidemiologic" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006042> "Diagnostic model" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006032> "Risk & Benefit Characterization, Outcome Prediction (Clinical & design Viability)" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006036> "Disease Progression model" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006031> "Combination Therapy Dose Selection" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006030> "Similarity Assessment (MVC, Biosimilar, Formulation)" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006034> "Dose & Schedule Selection and Label Recommendation" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006029> "Variability sources in PK and PD (CYP, Renal, Biomarkers)" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006040> "Social-economic" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006033> "Comparator/Standard of Care Differentiation (Clinical & Commercial Viability)" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006043> "Veterinary" ) ;
+        wat:displayedvalue            ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006037> "Clinical end-point" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006040> "Social-economic" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006038> "Pharmaco-economic" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006037> "Clinical end-point" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006029> "Variability sources in PK and PD" "CYP, Renal, Biomarkers" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006035> "Patient Population Selection and Bridging between Population" "Pediatrics, Elderly, Obese" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006027> "Candidate Comparison, Selection, Human Dose Prediction" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006026> "Mechanistic Understanding" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006042> "Diagnostic model" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006041> "Therapeutic Drug Monitoring" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006033> "Comparator/Standard of Care Differentiation" "Clinical & Commercial Viability" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006039> "Pharmaco-epidemiologic" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006031> "Combination Therapy Dose Selection" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006030> "Similarity Assessment" "MVC, Biosimilar, Formulation" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006028> "Study Design Optimization" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006043> "Veterinary" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006032> "Risk & Benefit Characterization, Outcome Prediction" "Clinical & design Viability" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006036> "Disease Progression model" "" ) ;
+        wat:displayedvalueandtips     ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006034> "Dose & Schedule Selection and Label Recommendation" "" ) ;
+        wat:fillability-choices       "MULTIPLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled       "true" ;
+        wat:fillability-mode          "always" ;
+        wat:fillability-source        "user" ;
+        wat:preferredresourceinrange  <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> .
+
+eur:5-4-section-one-four
+        rdfs:label               "Model authors and affiliation" ;
+        eur:section-number       "1.4" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "4" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-has-author ;
+        wat:tooltip              "Authors as stated in the publication or, if not published, the contributors." .
+
+ps:model-drug-formulation-type
+        a             rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and the type of formulation for the administered drug studied in the model" ;
+        rdfs:label    "formulation type" .
+
+ps:elt-hasinterpotype
+        a             rdf:Property ;
+        rdfs:comment  "link between a continuous covariate element in a PharmML model and the type of interpolation it is associated with. TRANSITORY" ;
+        rdfs:label    "element has interpolation model type" .
+
+wat:displayedvalueandtips
+        a           rdf:Property ;
+        rdfs:label  "has values and tips for display" .
+
+eur:5-4-section-two-four
+        rdfs:label               "Disease/indications" ;
+        eur:section-number       "2.4" ;
+        eur:section-of           eur:5-4-section-two ;
+        eur:section-position     "4" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      ps:model-related-to-disease-or-condition ;
+        wat:tooltip              "Select the most relevant disease/indication (refer to trial protocol/routine care/registry). If not applicable, skip." .
+
+ps:model-research-stage
+        a                             rdf:Property ;
+        rdfs:comment                  "link between a model and a type of research and/or development context in which the model has been produced." ;
+        rdfs:domain                   pmlo:PHARMML_0000001 ;
+        rdfs:label                    "nature of research" ;
+        rdfs:range                    rdfs:Resource ;
+        wat:displayValueType          "tree" ;
+        wat:displayedvalue-query      <http://example/upload-base/[OWLKB]/subhierarchy/pharmaceutical%20research%20activity> ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000051> "In vitro" "2.2" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006003> "Discovery stage" "1" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006009> "Early clinical development (Phases I and II)" "3" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006006> "Lead Generation & Optimization" "1.3" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006005> "Target selection & Validation" "1.2" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006007> "In silico" "2.1" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006008> "In vivo" "2.3" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006011> "Life cycle management" "5" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006004> "Fundamental/Basic research" "1.1" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006010> "Approval phase/Registration trial (Phase III)" "4" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006012> "Clinical research & Therapeutic use" "6" ) ;
+        wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000050> "Preclinical development" "2" ) ;
+        wat:fillability-choices       "MULTIPLE_CONSTRAINED_CHOICE" ;
+        wat:fillability-enabled       "true" ;
+        wat:fillability-mode          "always" ;
+        wat:fillability-source        "user" ;
+        wat:preferredresourceinrange  <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#> .
+
+ps:model-drug-combination
+        a             rdf:Property ;
+        rdfs:comment  "link between the trial design of a model and the type of therapy for the drug (or drug combination) studied in the model" ;
+        rdfs:label    "drug therapy" .
+
+ps:model-sampling-type
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a sampling type, for example: longitudinal rich, longitudinal sparse, 1 time point." ;
+        rdfs:domain   pmlo:PHARMML_0000001 ;
+        rdfs:label    "sampling type" ;
+        rdfs:range    rdfs:Resource .
+
+ps:modelrun-parameter-estimation-uses-algorithm
+        a             rdf:Property ;
+        rdfs:comment  "link between an estimation step and the algorithm used in it" ;
+        rdfs:label    "estimation algorithm" .
+
+ps:model-related-to-drug
+        a             rdf:Property ;
+        rdfs:comment  "link between the trial design of a model and the drug(s) studied in the model" ;
+        rdfs:label    "drug name" .
+
+wat:displayedvalue  a  rdf:Property ;
+        rdfs:label  "has values for display" .
+
+ps:model-type-of-data
+        a             rdf:Property ;
+        rdfs:comment  "link between either kind of data model and a generic type of data" ;
+        rdfs:label    "data type" .
+
+eur:5-4-section-one  rdfs:label  "Bookkeeping" ;
+        eur:section-number       "1" ;
+        eur:section-of           eur:5-4-eur ;
+        eur:section-position     "1" ;
+        wat:contains             wat:model-origin-of-code-in-literature-controlled , wat:model-has-correspondent , ps:model-has-name , ps:model-has-author , ps:model-has-description-short , wat:model-implementation-source-discrepancies-freetext , wat:model-implementation-conforms-to-literature-controlled , ps:model-has-description-long , ps:model-has-publication-source-external-id , ps:model-has-description ;
+        wat:fillability-enabled  "true" ;
+        wat:tooltip              "Overall description of the model" .
+
+ps:estimation-model-type-of-data
+        a             rdf:Property ;
+        rdfs:comment  "link between a dataset in an estimation step and a generic type of data" ;
+        rdfs:label    "data type for estimation" .
+
+ps:model-type-of-formalism
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and a generic type of mathematical formalism used in that model" ;
+        rdfs:label    "maths" .
+
+ps:elt-hasassocpar  a  rdf:Property ;
+        rdfs:comment  "link between a random variable element in a PharmML model and its associated parameter (another element in that model). TRANSITORY" ;
+        rdfs:label    "element has associated parameter" .
+
+ps:model-study-type  a  rdf:Property ;
+        rdfs:comment  "link between the relevant part of the trial design of a model and a specific type of study" ;
+        rdfs:label    "study type" .
+
+ps:model-has-author  a           rdf:Property ;
+        rdfs:comment             "link between a model and the name (string) of the author of the PharmML file for the model" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "author of model" ;
+        rdfs:range               rdfs:Literal ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "conditional" .
+
+eur:5-4-section-one-eight
+        rdfs:label               "Model derived only from the literature" ;
+        eur:section-number       "1.8" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "8" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      wat:model-origin-of-code-in-literature-controlled ;
+        wat:tooltip              "Is the model completely derived from the publication or also based on the submitter expertise/data?" .
+
+eur:5-4-section-one-one
+        rdfs:label               "Corresponding Author or Submitter (one Account)" ;
+        eur:section-number       "1.1" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "1" ;
+        wat:fillability-enabled  "false" ;
+        wat:hasMetadataSlot      wat:model-has-correspondent ;
+        wat:tooltip              "" .
+
+ps:elt-hasvarmodtype  a  rdf:Property ;
+        rdfs:comment  "link between a random variable element in a PharmML model and the type of variability model it is associated with. TRANSITORY" ;
+        rdfs:label    "element has variability model type" .
+
+pmlo:PHARMMLO_0000001
+        rdfs:label           "Model" ;
+        wat:annotatablewith  wat:model-implementation-source-discrepancies-freetext , ps:model-research-stage , wat:model-origin-of-code-in-literature-controlled , wat:model-has-correspondent , ps:model-has-author , ps:model-field-purpose , ps:model-has-description-short , ps:model-modelling-question , ps:model-related-to-disease-or-condition , ps:model-type-of-data-source , ps:model-has-publication-source-external-id , wat:model-implementation-conforms-to-literature-controlled , ps:model-tasks-in-scope , ps:model-has-description-long , ps:model-has-description .
+
+ps:elt-hascovtype  a  rdf:Property ;
+        rdfs:comment  "link between a covariate element in a PharmML model and a type relevant to qualify covariates (e.g., continuous or categorical). TRANSITORY --- redundant with kinds of covariate" ;
+        rdfs:label    "element has covariate type" .
+
+ps:model-has-name  a             rdf:Property ;
+        rdfs:comment             "link between a model and the name of this model; when automatically input per the model's PharmML source, the (string) value of ct:Name" ;
+        rdfs:domain              pmlo:PHARMML_0000001 ;
+        rdfs:label               "name of model" ;
+        rdfs:range               rdfs:Literal ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "false" ;
+        wat:fillability-mode     "always" ;
+        wat:fillability-source   "user" .
+
+ps:elt-hasdistribtype
+        a             rdf:Property ;
+        rdfs:comment  "link between a random variable element in a PharmML model and the type of distribution it is associated with. TRANSITORY" ;
+        rdfs:label    "element has distribution type" .
+
+wat:model-implementation-source-discrepancies-freetext
+        a                        rdf:Property ;
+        rdfs:label               "description of discrepancies between source and implementation" ;
+        wat:displayValueType     "Text" ;
+        wat:fillability-choices  "SINGLE_UNCONSTRAINED_CHOICE" ;
+        wat:fillability-enabled  "true" ;
+        wat:fillability-mode     "optional" ;
+        wat:fillability-source   "user" .
+
+ps:elt-hasint  a      rdf:Property ;
+        rdfs:comment  "link between an element in a PharmML model and its interpretation. TRANSITORY" ;
+        rdfs:label    "element has interpretation" .
+
+ps:model-has-indication
+        a             rdf:Property ;
+        rdfs:comment  "link between a model and indications or diseases related to the phenomenon modelled." ;
+        rdfs:label    "indication" .
+
+ps:elt-haspartype  a  rdf:Property ;
+        rdfs:comment  "link between a parameter element in a PharmML model and a type relevant to qualify parameters (e.g., individual or population). TRANSITORY" ;
+        rdfs:label    "element has parameter type" .
+
+eur:5-4-section-two-one
+        rdfs:label               "Context of model development" ;
+        eur:section-number       "2.1" ;
+        eur:section-of           eur:5-4-section-two ;
+        eur:section-position     "1" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      ps:model-modelling-question ;
+        wat:tooltip              "" .
+
+eur:5-4-section-one-nine
+        rdfs:label               "Model compliance with original publication" ;
+        eur:section-number       "1.9" ;
+        eur:section-of           eur:5-4-section-one ;
+        eur:section-position     "9" ;
+        wat:fillability-enabled  "true" ;
+        wat:hasMetadataSlot      wat:model-implementation-conforms-to-literature-controlled ;
+        wat:tooltip              "Is the model implemented as reported in the original publication?" .
+
