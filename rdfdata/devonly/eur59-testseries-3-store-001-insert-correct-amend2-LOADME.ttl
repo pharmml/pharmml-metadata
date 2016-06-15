@@ -1,0 +1,1162 @@
+@prefix eur: <http://www.ddmore.org/ontologies/metadataeur#> . 
+@prefix ps: <http://www.pharmml.org/2013/10/PharmMLMetadata#> . 
+@prefix pmlo: <http://www.pharmml.org/ontology/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix wat: <http://www.ddmore.org/ontologies/webannotationtool#> . 
+@prefix ncbit: <http://purl.bioontology.org/ontology/NCBITAXON/> . 
+
+ 
+pmlo:PharmMLO_0000001 rdfs:label "Model" .
+pmlo:PharmMLO_0000006 rdfs:label "TrialDesign" .
+pmlo:PharmMLO_0000007 rdfs:label "ModellingSteps" .
+eur:5-9-eur rdfs:label "EUR document" .
+
+eur:5-9-section-three-four eur:section-of eur:5-9-section-three.
+eur:5-9-section-three-four eur:section-number "3.4" .
+eur:5-9-section-three-four eur:section-position "4" .
+eur:5-9-section-three-four rdfs:label "Provided dataset (optional)" .
+eur:5-9-section-three-four wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-one eur:section-of eur:5-9-eur.
+eur:5-9-section-one eur:section-number "1" .
+eur:5-9-section-one eur:section-position "1" .
+eur:5-9-section-one rdfs:label "Bookkeeping" .
+eur:5-9-section-one wat:tooltip "Overall description of the model" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-two eur:section-of eur:5-9-eur.
+eur:5-9-section-two eur:section-number "2" .
+eur:5-9-section-two eur:section-position "2" .
+eur:5-9-section-two rdfs:label "Context of use" .
+eur:5-9-section-two wat:tooltip "This section will capture information regarding why the model was developed and in what context. It does not describe potential future use of the model." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-one-one eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-one eur:section-number "1.1" .
+eur:5-9-section-one-one eur:section-position "1" .
+eur:5-9-section-one-one rdfs:label "Corresponding Author or Submitter (one Account)" .
+eur:5-9-section-one-one wat:tooltip "" .
+eur:5-9-section-one-one wat:hasMetadataSlot wat:model-has-correspondent.
+eur:5-9-section-one-one wat:hasMetadataSlotSubstitute wat:model-has-correspondent.
+
+eur:5-9-section-one-two eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-two eur:section-number "1.2" .
+eur:5-9-section-one-two eur:section-position "2" .
+eur:5-9-section-one-two rdfs:label "Publication identification" .
+eur:5-9-section-one-two wat:tooltip "Pubmed Identification [for instance: 23887647] or DOI [for instance: 10.1038/psp.2013.10.]" .
+eur:5-9-section-one-two wat:hasMetadataSlot ps:model-has-publication-source-external-id.
+eur:5-9-section-one-two wat:hasMetadataSlotSubstitute ps:model-has-publication-source-external-id.
+
+eur:5-9-section-one-three eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-three eur:section-number "1.3" .
+eur:5-9-section-one-three eur:section-position "3" .
+eur:5-9-section-one-three rdfs:label "Model Name" .
+eur:5-9-section-one-three wat:tooltip "Name of the model (max 150 characters)." .
+eur:5-9-section-one-three wat:hasMetadataSlot ps:model-has-name.
+eur:5-9-section-one-three wat:hasMetadataSlotSubstitute ps:model-has-name.
+
+eur:5-9-section-one-four eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-four eur:section-number "1.4" .
+eur:5-9-section-one-four eur:section-position "4" .
+eur:5-9-section-one-four rdfs:label "Model authors and affiliation" .
+eur:5-9-section-one-four wat:tooltip "Authors as stated in the publication or, if not published, the contributors." .
+eur:5-9-section-one-four wat:hasMetadataSlot ps:model-has-author.
+eur:5-9-section-one-four wat:hasMetadataSlotSubstitute ps:model-has-author.
+
+eur:5-9-section-one-five eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-five eur:section-number "1.5" .
+eur:5-9-section-one-five eur:section-position "5" .
+eur:5-9-section-one-five rdfs:label "Modelling context description" .
+eur:5-9-section-one-five wat:tooltip "Modelling context or reasons for the implementation of the model (max 450 words)." .
+eur:5-9-section-one-five wat:hasMetadataSlot ps:model-has-description.
+eur:5-9-section-one-five wat:hasMetadataSlotSubstitute ps:model-has-description.
+
+eur:5-9-section-one-six eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-six eur:section-number "1.6" .
+eur:5-9-section-one-six eur:section-position "6" .
+eur:5-9-section-one-six rdfs:label "Short description of the final model" .
+eur:5-9-section-one-six wat:tooltip "Model key features (max 200 characters)." .
+eur:5-9-section-one-six wat:hasMetadataSlot ps:model-has-description-short.
+eur:5-9-section-one-six wat:hasMetadataSlotSubstitute ps:model-has-description-short.
+
+eur:5-9-section-one-seven eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-seven eur:section-number "1.7" .
+eur:5-9-section-one-seven eur:section-position "7" .
+eur:5-9-section-one-seven rdfs:label "Long technical model description" .
+eur:5-9-section-one-seven wat:tooltip "Either free text or the exact name of a file (which can be uploaded later) containing a comprehensive technical model description." .
+eur:5-9-section-one-seven wat:hasMetadataSlot ps:model-has-description-long.
+eur:5-9-section-one-seven wat:hasMetadataSlotSubstitute ps:model-has-description-long.
+
+eur:5-9-section-one-eight eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-eight eur:section-number "1.8" .
+eur:5-9-section-one-eight eur:section-position "8" .
+eur:5-9-section-one-eight rdfs:label "Model implementation requiring submitter’s additional knowledge" .
+eur:5-9-section-one-eight wat:tooltip "In order to implement the uploaded model, did the submitter use other knowledge (e.g. hypothesis or expertise) than in the original publication or than in the original model code, data and output?" .
+eur:5-9-section-one-eight wat:hasMetadataSlot wat:model-origin-of-code-in-literature-controlled.
+eur:5-9-section-one-eight wat:hasMetadataSlotSubstitute wat:model-origin-of-code-in-literature-controlled.
+
+eur:5-9-section-one-nine eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-nine eur:section-number "1.9" .
+eur:5-9-section-one-nine eur:section-position "9" .
+eur:5-9-section-one-nine rdfs:label "Model compliance with original publication" .
+eur:5-9-section-one-nine wat:tooltip "Is the model implemented as reported in the original publication? If no publication, skip." .
+eur:5-9-section-one-nine wat:hasMetadataSlot wat:model-implementation-conforms-to-literature-controlled.
+eur:5-9-section-one-nine wat:hasMetadataSlotSubstitute wat:model-implementation-conforms-to-literature-controlled.
+
+eur:5-9-section-one-ten eur:section-of eur:5-9-section-one.
+eur:5-9-section-one-ten eur:section-number "1.10" .
+eur:5-9-section-one-ten eur:section-position "10" .
+eur:5-9-section-one-ten rdfs:label "Discrepancy between implemented model and original publication" .
+eur:5-9-section-one-ten wat:tooltip "What are the differences between the model in the repository and the one in the original publication? What are the reasons for those differences? If no publication, skip." .
+eur:5-9-section-one-ten wat:hasMetadataSlot wat:model-implementation-source-discrepancies-freetext.
+eur:5-9-section-one-ten wat:hasMetadataSlotSubstitute wat:model-implementation-source-discrepancies-freetext.
+
+eur:5-9-section-two-one eur:section-of eur:5-9-section-two.
+eur:5-9-section-two-one eur:section-number "2.1" .
+eur:5-9-section-two-one eur:section-position "1" .
+eur:5-9-section-two-one rdfs:label "Context of model development" .
+eur:5-9-section-two-one wat:tooltip "" .
+eur:5-9-section-two-one wat:hasMetadataSlot ps:model-modelling-question.
+eur:5-9-section-two-one wat:hasMetadataSlotSubstitute ps:model-modelling-question.
+
+eur:5-9-section-two-two eur:section-of eur:5-9-section-two.
+eur:5-9-section-two-two eur:section-number "2.2" .
+eur:5-9-section-two-two eur:section-position "2" .
+eur:5-9-section-two-two rdfs:label "Nature of research" .
+eur:5-9-section-two-two wat:tooltip "" .
+eur:5-9-section-two-two wat:hasMetadataSlot ps:model-research-stage.
+eur:5-9-section-two-two wat:hasMetadataSlotSubstitute ps:model-research-stage.
+
+eur:5-9-section-two-three eur:section-of eur:5-9-section-two.
+eur:5-9-section-two-three eur:section-number "2.3" .
+eur:5-9-section-two-three eur:section-position "3" .
+eur:5-9-section-two-three rdfs:label "Therapeutic/disease area" .
+eur:5-9-section-two-three wat:tooltip "" .
+eur:5-9-section-two-three wat:hasMetadataSlot ps:model-field-purpose.
+eur:5-9-section-two-three wat:hasMetadataSlotSubstitute ps:model-field-purpose.
+
+eur:5-9-section-two-four eur:section-of eur:5-9-section-two.
+eur:5-9-section-two-four eur:section-number "2.4" .
+eur:5-9-section-two-four eur:section-position "4" .
+eur:5-9-section-two-four rdfs:label "Disease/Indications" .
+eur:5-9-section-two-four wat:tooltip "Select the most relevant disease/indication (refer to trial protocol/routine care/registry). If not applicable, skip." .
+eur:5-9-section-two-four wat:hasMetadataSlot ps:model-related-to-disease-or-condition.
+eur:5-9-section-two-four wat:hasMetadataSlotSubstitute ps:model-related-to-disease-or-condition.
+
+eur:5-9-section-two-five eur:section-of eur:5-9-section-two.
+eur:5-9-section-two-five eur:section-number "2.5" .
+eur:5-9-section-two-five eur:section-position "5" .
+eur:5-9-section-two-five rdfs:label "Modelling task in scope" .
+eur:5-9-section-two-five wat:tooltip "" .
+eur:5-9-section-two-five wat:hasMetadataSlot ps:model-tasks-in-scope.
+eur:5-9-section-two-five wat:hasMetadataSlotSubstitute ps:model-tasks-in-scope.
+
+eur:5-9-section-three-one eur:section-of eur:5-9-section-three.
+eur:5-9-section-three-one eur:section-number "3.1" .
+eur:5-9-section-three-one eur:section-position "1" .
+eur:5-9-section-three-one rdfs:label "Design overview" .
+eur:5-9-section-three-one wat:tooltip "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-two eur:section-of eur:5-9-section-three.
+eur:5-9-section-three-two eur:section-number "3.2" .
+eur:5-9-section-three-two eur:section-position "2" .
+eur:5-9-section-three-two rdfs:label "Studied Drug(s)" .
+eur:5-9-section-three-two wat:tooltip "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-three eur:section-of eur:5-9-section-three.
+eur:5-9-section-three-three eur:section-number "3.3" .
+eur:5-9-section-three-three eur:section-position "3" .
+eur:5-9-section-three-three rdfs:label "Observed (dependent) variable(s)" .
+eur:5-9-section-three-three wat:tooltip "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-one-three eur:section-of eur:5-9-section-three-one.
+eur:5-9-section-three-one-three eur:section-number "3.1.3" .
+eur:5-9-section-three-one-three eur:section-position "3" .
+eur:5-9-section-three-one-three rdfs:label "Type(s) of data" .
+eur:5-9-section-three-one-three wat:tooltip "" .
+eur:5-9-section-three-one-three wat:hasMetadataSlot ps:trialdesign-HasAssociatedDataOfType-DataPool.
+eur:5-9-section-three-one-three wat:hasMetadataSlotSubstitute ps:trialdesign-HasAssociatedDataOfType-DataPool.
+
+eur:5-9-section-three-one-four eur:section-of eur:5-9-section-three-one.
+eur:5-9-section-three-one-four eur:section-number "3.1.4" .
+eur:5-9-section-three-one-four eur:section-position "4" .
+eur:5-9-section-three-one-four rdfs:label "Species" .
+eur:5-9-section-three-one-four wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-one-four-one eur:section-of eur:5-9-section-three-one-four.
+eur:5-9-section-three-one-four-one eur:section-number "3.1.4.1" .
+eur:5-9-section-three-one-four-one eur:section-position "1" .
+eur:5-9-section-three-one-four-one rdfs:label "Animals" .
+eur:5-9-section-three-one-four-one wat:tooltip "" .
+eur:5-9-section-three-one-four-one wat:hasMetadataSlot ps:trialdesign-HasAssociatedAnimalSpecies-DataPool.
+eur:5-9-section-three-one-four-one wat:hasMetadataSlotSubstitute ps:trialdesign-HasAssociatedAnimalSpecies-DataPool.
+
+eur:5-9-section-three-one-four-two eur:section-of eur:5-9-section-three-one-four.
+eur:5-9-section-three-one-four-two eur:section-number "3.1.4.2" .
+eur:5-9-section-three-one-four-two eur:section-position "2" .
+eur:5-9-section-three-one-four-two rdfs:label "Humans" .
+eur:5-9-section-three-one-four-two wat:tooltip "" .
+eur:5-9-section-three-one-four-two wat:hasMetadataSlot ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool.
+eur:5-9-section-three-one-four-two wat:hasMetadataSlotSubstitute ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool.
+
+eur:5-9-section-three-two-one eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-one eur:section-number "3.2.1" .
+eur:5-9-section-three-two-one eur:section-position "1" .
+eur:5-9-section-three-two-one rdfs:label "Name(s)" .
+eur:5-9-section-three-two-one wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-two-one-one eur:section-of eur:5-9-section-three-two-one.
+eur:5-9-section-three-two-one-one eur:section-number "3.2.1.1" .
+eur:5-9-section-three-two-one-one eur:section-position "1" .
+eur:5-9-section-three-two-one-one rdfs:label "Name" .
+eur:5-9-section-three-two-one-one wat:tooltip "from https://www.ebi.ac.uk/chebi/ [for instance: 46195]" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-two eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-two eur:section-number "3.2.2" .
+eur:5-9-section-three-two-two eur:section-position "2" .
+eur:5-9-section-three-two-two rdfs:label "Type of drug (s) or stimulus" .
+eur:5-9-section-three-two-two wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-three eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-three eur:section-number "3.2.3" .
+eur:5-9-section-three-two-three eur:section-position "3" .
+eur:5-9-section-three-two-three rdfs:label "Route of administration" .
+eur:5-9-section-three-two-three wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-six eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-six eur:section-number "3.2.6" .
+eur:5-9-section-three-two-six eur:section-position "6" .
+eur:5-9-section-three-two-six rdfs:label "Dose regimen" .
+eur:5-9-section-three-two-six wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-six-one eur:section-of eur:5-9-section-three-two-six.
+eur:5-9-section-three-two-six-one eur:section-number "3.2.6.1" .
+eur:5-9-section-three-two-six-one eur:section-position "1" .
+eur:5-9-section-three-two-six-one rdfs:label "Dose regimen" .
+eur:5-9-section-three-two-six-one wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-seven eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-seven eur:section-number "3.2.7" .
+eur:5-9-section-three-two-seven eur:section-position "7" .
+eur:5-9-section-three-two-seven rdfs:label "Dose amount range" .
+eur:5-9-section-three-two-seven wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-seven-one eur:section-of eur:5-9-section-three-two-seven.
+eur:5-9-section-three-two-seven-one eur:section-number "3.2.7.1" .
+eur:5-9-section-three-two-seven-one eur:section-position "1" .
+eur:5-9-section-three-two-seven-one rdfs:label "min" .
+eur:5-9-section-three-two-seven-one wat:tooltip "Please provide numeric value" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-seven-two eur:section-of eur:5-9-section-three-two-seven.
+eur:5-9-section-three-two-seven-two eur:section-number "3.2.7.2" .
+eur:5-9-section-three-two-seven-two eur:section-position "2" .
+eur:5-9-section-three-two-seven-two rdfs:label "max" .
+eur:5-9-section-three-two-seven-two wat:tooltip "Please provide numeric value" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-two-eight eur:section-of eur:5-9-section-three-two.
+eur:5-9-section-three-two-eight eur:section-number "3.2.8" .
+eur:5-9-section-three-two-eight eur:section-position "8" .
+eur:5-9-section-three-two-eight rdfs:label "Dose amount unit" .
+eur:5-9-section-three-two-eight wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-one eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-one eur:section-number "3.3.1" .
+eur:5-9-section-three-three-one eur:section-position "1" .
+eur:5-9-section-three-three-one rdfs:label "Listing" .
+eur:5-9-section-three-three-one wat:tooltip "List/select here one by one the different observed variable names as they are coded in the model script. Note: if drug concentrations are modelled in plasma and urine (or parent and metabolite), please consider two observed variables." .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-two eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-two eur:section-number "3.3.2" .
+eur:5-9-section-three-three-two eur:section-position "2" .
+eur:5-9-section-three-three-two rdfs:label "Link to studied drug(s) or stimulus(i)" .
+eur:5-9-section-three-three-two wat:tooltip "Please select the investigational drug(s) or stimulus(i) given when the observed variable was collected." .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-three eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-three eur:section-number "3.3.3" .
+eur:5-9-section-three-three-three eur:section-position "3" .
+eur:5-9-section-three-three-three rdfs:label "Nature of the variable" .
+eur:5-9-section-three-three-three wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-four eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-four eur:section-number "3.3.4" .
+eur:5-9-section-three-three-four eur:section-position "4" .
+eur:5-9-section-three-three-four rdfs:label "Units" .
+eur:5-9-section-three-three-four wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-six eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-six eur:section-number "3.3.6" .
+eur:5-9-section-three-three-six eur:section-position "6" .
+eur:5-9-section-three-three-six rdfs:label "Type of observed variable" .
+eur:5-9-section-three-three-six wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-seven eur:section-of eur:5-9-section-three-three.
+eur:5-9-section-three-three-seven eur:section-number "3.3.7" .
+eur:5-9-section-three-three-seven eur:section-position "7" .
+eur:5-9-section-three-three-seven rdfs:label "Information collected" .
+eur:5-9-section-three-three-seven wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-three-three-seven-two eur:section-of eur:5-9-section-three-three-seven.
+eur:5-9-section-three-three-seven-two eur:section-number "3.3.7.2" .
+eur:5-9-section-three-three-seven-two eur:section-position "2" .
+eur:5-9-section-three-three-seven-two rdfs:label "Number of subjects" .
+eur:5-9-section-three-three-seven-two wat:tooltip "please enter a numeric value" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-seven-three eur:section-of eur:5-9-section-three-three-seven.
+eur:5-9-section-three-three-seven-three eur:section-number "3.3.7.3" .
+eur:5-9-section-three-three-seven-three eur:section-position "3" .
+eur:5-9-section-three-three-seven-three rdfs:label "Number of modelled observations" .
+eur:5-9-section-three-three-seven-three wat:tooltip "please enter a numeric value" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three-three-seven-five eur:section-of eur:5-9-section-three-three-seven.
+eur:5-9-section-three-three-seven-five eur:section-number "3.3.7.5" .
+eur:5-9-section-three-three-seven-five eur:section-position "5" .
+eur:5-9-section-three-three-seven-five rdfs:label "Sampling design specificities" .
+eur:5-9-section-three-three-seven-five wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-five-one eur:section-of eur:5-9-section-five.
+eur:5-9-section-five-one eur:section-number "5.1" .
+eur:5-9-section-five-one eur:section-position "1" .
+eur:5-9-section-five-one rdfs:label "Software used to run the model" .
+eur:5-9-section-five-one wat:tooltip "" .
+eur:5-9-section-five-one wat:hasMetadataSlot ps:modellingstep-modelrun-uses-software.
+eur:5-9-section-five-one wat:hasMetadataSlotSubstitute ps:model-modelrun-uses-software.
+
+eur:5-9-section-four-one eur:section-of eur:5-9-section-four.
+eur:5-9-section-four-one eur:section-number "4.1" .
+eur:5-9-section-four-one eur:section-position "1" .
+eur:5-9-section-four-one rdfs:label "Structural model characteristics" .
+eur:5-9-section-four-one wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-four-one-one eur:section-of eur:5-9-section-four-one.
+eur:5-9-section-four-one-one eur:section-number "4.1.1" .
+eur:5-9-section-four-one-one eur:section-position "1" .
+eur:5-9-section-four-one-one rdfs:label "PK component(s)" .
+eur:5-9-section-four-one-one wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-two-one eur:section-of eur:5-9-section-four-one-two.
+eur:5-9-section-four-one-two-one eur:section-number "4.1.2.1" .
+eur:5-9-section-four-one-two-one eur:section-position "1" .
+eur:5-9-section-four-one-two-one rdfs:label "Disease or physiological system model" .
+eur:5-9-section-four-one-two-one wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-two-two eur:section-of eur:5-9-section-four-one-two.
+eur:5-9-section-four-one-two-two eur:section-number "4.1.2.2" .
+eur:5-9-section-four-one-two-two eur:section-position "2" .
+eur:5-9-section-four-one-two-two rdfs:label "Drug effect model" .
+eur:5-9-section-four-one-two-two wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-four-one-two-two-one eur:section-of eur:5-9-section-four-one-two-two.
+eur:5-9-section-four-one-two-two-one eur:section-number "4.1.2.2.1" .
+eur:5-9-section-four-one-two-two-one eur:section-position "1" .
+eur:5-9-section-four-one-two-two-one rdfs:label "Driver of drug effect" .
+eur:5-9-section-four-one-two-two-one wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-two-two-two eur:section-of eur:5-9-section-four-one-two-two.
+eur:5-9-section-four-one-two-two-two eur:section-number "4.1.2.2.2" .
+eur:5-9-section-four-one-two-two-two eur:section-position "2" .
+eur:5-9-section-four-one-two-two-two rdfs:label "Shape of drug effect" .
+eur:5-9-section-four-one-two-two-two wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-two-two-three eur:section-of eur:5-9-section-four-one-two-two.
+eur:5-9-section-four-one-two-two-three eur:section-number "4.1.2.2.3" .
+eur:5-9-section-four-one-two-two-three eur:section-position "3" .
+eur:5-9-section-four-one-two-two-three rdfs:label "Temporal relation of drug effect to response" .
+eur:5-9-section-four-one-two-two-three wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-two-three eur:section-of eur:5-9-section-four-one-two.
+eur:5-9-section-four-one-two-three eur:section-number "4.1.2.3" .
+eur:5-9-section-four-one-two-three eur:section-position "3" .
+eur:5-9-section-four-one-two-three rdfs:label "Response model" .
+eur:5-9-section-four-one-two-three wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-one-four eur:section-of eur:5-9-section-four-one.
+eur:5-9-section-four-one-four eur:section-number "4.1.4" .
+eur:5-9-section-four-one-four eur:section-position "4" .
+eur:5-9-section-four-one-four rdfs:label "Drug-drug interaction" .
+eur:5-9-section-four-one-four wat:tooltip "" .
+# missing PharmML slot information 
+# missing PharmML slot information 
+
+eur:5-9-section-four-six eur:section-of eur:5-9-section-four.
+eur:5-9-section-four-six eur:section-number "4.6" .
+eur:5-9-section-four-six eur:section-position "6" .
+eur:5-9-section-four-six rdfs:label "Noteworthy model assumptions or limitations" .
+eur:5-9-section-four-six wat:tooltip "" .
+# missing PharmML  slot 
+# missing PharmML  slot 
+
+eur:5-9-section-three eur:section-of eur:5-9-eur.
+eur:5-9-section-three eur:section-number "3" .
+eur:5-9-section-three eur:section-position "3" .
+eur:5-9-section-three rdfs:label "Design and Data" .
+eur:5-9-section-three wat:tooltip "Important note: all answers in this section are for the whole dataset (pool) and not any particular trial. If the model is used only for simulations then this section describes the simulation scenario." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-four eur:section-of eur:5-9-eur.
+eur:5-9-section-four eur:section-number "4" .
+eur:5-9-section-four eur:section-position "4" .
+eur:5-9-section-four rdfs:label "Model(s)" .
+eur:5-9-section-four wat:tooltip "If the model is used only for simulations then this section describes the simulation scenario." .
+# no PharmML  slot 
+# no PharmML  slot 
+
+eur:5-9-section-five eur:section-of eur:5-9-eur.
+eur:5-9-section-five eur:section-number "5" .
+eur:5-9-section-five eur:section-position "5" .
+eur:5-9-section-five rdfs:label "Task execution" .
+eur:5-9-section-five wat:tooltip "" .
+# no PharmML  slot 
+# no PharmML  slot 
+
+wat:model-has-correspondent rdf:type rdf:Property . 
+wat:model-has-correspondent rdfs:label "correspondent" .
+wat:model-has-correspondent rdfs:comment "" .
+wat:model-has-correspondent rdfs:domain pmlo:PHARMML_0000001 .
+wat:model-has-correspondent rdfs:range rdfs:Literal .
+
+ps:model-has-publication-source-external-id rdf:type rdf:Property . 
+ps:model-has-publication-source-external-id rdfs:label "source id" .
+ps:model-has-publication-source-external-id rdfs:comment "link between a model and a publication identifier for a source of the model" .
+ps:model-has-publication-source-external-id rdfs:domain pmlo:PHARMML_0000001 .
+ps:model-has-publication-source-external-id rdfs:range rdfs:Literal .
+
+ps:model-has-name rdf:type rdf:Property . 
+ps:model-has-name rdfs:label "name of model" .
+ps:model-has-name rdfs:comment "link between a model and the name of this model; when automatically input per the model's PharmML source, the (string) value of ct:Name" .
+ps:model-has-name rdfs:domain pmlo:PHARMML_0000001 .
+ps:model-has-name rdfs:range rdfs:Literal .
+
+ps:model-has-author rdf:type rdf:Property . 
+ps:model-has-author rdfs:label "author of model" .
+ps:model-has-author rdfs:comment "link between a model and the name (string) of the author of the PharmML file for the model" .
+ps:model-has-author rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-has-author rdfs:range rdfs:Literal .
+
+ps:model-has-description rdf:type rdf:Property . 
+ps:model-has-description rdfs:label "description of model" .
+ps:model-has-description rdfs:comment "link between a model and the description of this model; when automatically input per the model's PharmML source, the (string) value of ct:Description" .
+ps:model-has-description rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-has-description rdfs:range rdfs:Literal .
+
+ps:model-has-description-short rdf:type rdf:Property . 
+ps:model-has-description-short rdfs:label "short description of model" .
+ps:model-has-description-short rdfs:comment "link between a model and a description of this model; this description provides an account of the key features of the final model in the modeller's words" .
+ps:model-has-description-short rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-has-description-short rdfs:range rdfs:Literal .
+
+ps:model-has-description-long rdf:type rdf:Property . 
+ps:model-has-description-long rdfs:label "long description of model" .
+ps:model-has-description-long rdfs:comment "link between a model and a description of this model; this description includes detailed discussions or material" .
+ps:model-has-description-long rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-has-description-long rdfs:range rdfs:Literal .
+
+wat:model-origin-of-code-in-literature-controlled rdf:type rdf:Property . 
+wat:model-origin-of-code-in-literature-controlled rdfs:label "model derived only from literature" .
+wat:model-origin-of-code-in-literature-controlled rdfs:comment "" .
+wat:model-origin-of-code-in-literature-controlled rdfs:domain pmlo:PharmMLO_0000001 .
+wat:model-origin-of-code-in-literature-controlled rdfs:range rdfs:Literal .
+
+wat:model-implementation-conforms-to-literature-controlled rdf:type rdf:Property . 
+wat:model-implementation-conforms-to-literature-controlled rdfs:label "model implements literature" .
+wat:model-implementation-conforms-to-literature-controlled rdfs:comment "" .
+wat:model-implementation-conforms-to-literature-controlled rdfs:domain pmlo:PharmMLO_0000001 .
+wat:model-implementation-conforms-to-literature-controlled rdfs:range rdfs:Literal .
+
+wat:model-implementation-source-discrepancies-freetext rdf:type rdf:Property . 
+wat:model-implementation-source-discrepancies-freetext rdfs:label "description of discrepancies between source and implementation" .
+wat:model-implementation-source-discrepancies-freetext rdfs:comment "" .
+wat:model-implementation-source-discrepancies-freetext rdfs:domain pmlo:PharmMLO_0000001 .
+wat:model-implementation-source-discrepancies-freetext rdfs:range rdfs:Literal .
+
+ps:model-modelling-question rdf:type rdf:Property . 
+ps:model-modelling-question rdfs:label "modelling question" .
+ps:model-modelling-question rdfs:comment "link between a model and a specific, possibly complex topic describing the specific question the model intends to address" .
+ps:model-modelling-question rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-modelling-question rdfs:range rdfs:Resource .
+
+ps:model-research-stage rdf:type rdf:Property . 
+ps:model-research-stage rdfs:label "nature of research" .
+ps:model-research-stage rdfs:comment "link between a model and a type of research and/or development context in which the model has been produced." .
+ps:model-research-stage rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-research-stage rdfs:range rdfs:Resource .
+
+ps:model-field-purpose rdf:type rdf:Property . 
+ps:model-field-purpose rdfs:label "therapeutic area" .
+ps:model-field-purpose rdfs:comment "link between a model and a specific area of application for the model" .
+ps:model-field-purpose rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-field-purpose rdfs:range rdfs:Resource .
+
+ps:model-related-to-disease-or-condition rdf:type rdf:Property . 
+ps:model-related-to-disease-or-condition rdfs:label "has disease or indications" .
+ps:model-related-to-disease-or-condition rdfs:comment "" .
+ps:model-related-to-disease-or-condition rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-related-to-disease-or-condition rdfs:range rdfs:Resource .
+
+ps:model-tasks-in-scope rdf:type rdf:Property . 
+ps:model-tasks-in-scope rdfs:label "tasks in scope" .
+ps:model-tasks-in-scope rdfs:comment "link between a model and its relevant modelling tasks." .
+ps:model-tasks-in-scope rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-tasks-in-scope rdfs:range rdfs:Resource .
+
+ps:model-type-of-data-source rdf:type rdf:Property . 
+ps:model-type-of-data-source rdfs:label "data source type" .
+ps:model-type-of-data-source rdfs:comment "link between a data set and a generic type of data source" .
+ps:model-type-of-data-source rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-type-of-data-source rdfs:range rdfs:Resource .
+
+ps:trialdesign-HasAssociatedDataOfType-DataPool rdf:type rdf:Property . 
+ps:trialdesign-HasAssociatedDataOfType-DataPool rdfs:label "" .
+ps:trialdesign-HasAssociatedDataOfType-DataPool rdfs:comment "A property links the trial design part of a model to a designated type of data source." .
+ps:trialdesign-HasAssociatedDataOfType-DataPool rdfs:domain pmlo:PharmMLO_0000006 .
+ps:trialdesign-HasAssociatedDataOfType-DataPool rdfs:range rdfs:Resource .
+
+ps:model-HasAssociatedDataOfType-DataPool rdf:type rdf:Property . 
+ps:model-HasAssociatedDataOfType-DataPool rdfs:label "" .
+ps:model-HasAssociatedDataOfType-DataPool rdfs:comment "A property links the model to the designated type of data source to which is linked its data design part." .
+ps:model-HasAssociatedDataOfType-DataPool rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-HasAssociatedDataOfType-DataPool rdfs:range rdfs:Resource .
+
+ps:trialdesign-HasAssociatedOrganismType-DataPool rdf:type rdf:Property . 
+ps:trialdesign-HasAssociatedOrganismType-DataPool rdfs:label "" .
+ps:trialdesign-HasAssociatedOrganismType-DataPool rdfs:comment "A property links the trial design part of a model to designated species of animals to which the data relates." .
+ps:trialdesign-HasAssociatedOrganismType-DataPool rdfs:domain pmlo:PharmMLO_0000006 .
+ps:trialdesign-HasAssociatedOrganismType-DataPool rdfs:range rdfs:Literal .
+
+ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext rdf:type rdf:Property . 
+ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext rdfs:label "" .
+ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext rdfs:comment "A property links the trial design part of a model to designated species of animals to which the data relates as a freetext entry." .
+ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext rdfs:domain pmlo:PharmMLO_0000006 .
+ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext rdfs:range rdfs:Literal .
+
+ps:model-HasAssociatedOrganismType-DataPool rdf:type rdf:Property . 
+ps:model-HasAssociatedOrganismType-DataPool rdfs:label "" .
+ps:model-HasAssociatedOrganismType-DataPool rdfs:comment "" .
+ps:model-HasAssociatedOrganismType-DataPool rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-HasAssociatedOrganismType-DataPool rdfs:range rdfs:Resource .
+
+ps:model-HasAssociatedOrganismType-DataPool-freetext rdf:type rdf:Property . 
+ps:model-HasAssociatedOrganismType-DataPool-freetext rdfs:label "" .
+ps:model-HasAssociatedOrganismType-DataPool-freetext rdfs:comment "" .
+ps:model-HasAssociatedOrganismType-DataPool-freetext rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-HasAssociatedOrganismType-DataPool-freetext rdfs:range rdfs:Literal .
+
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool rdf:type rdf:Property . 
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:label "" .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:comment "A property links the trial design part of a model to designated medical type of human to which the data relates." .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:domain pmlo:PharmMLO_0000006 .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:range rdfs:Resource .
+
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool rdf:type rdf:Property . 
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:label "" .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:comment "" .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool rdfs:range rdfs:Resource .
+
+ps:modellingstep-modelrun-uses-software rdf:type rdf:Property . 
+ps:modellingstep-modelrun-uses-software rdfs:label "software used to run model" .
+ps:modellingstep-modelrun-uses-software rdfs:comment "" .
+ps:modellingstep-modelrun-uses-software rdfs:domain pmlo:PharmMLO_0000007 .
+ps:modellingstep-modelrun-uses-software rdfs:range rdfs:Resource .
+
+ps:model-modelrun-uses-software rdf:type rdf:Property . 
+ps:model-modelrun-uses-software rdfs:label "software used to run model" .
+ps:model-modelrun-uses-software rdfs:comment "" .
+ps:model-modelrun-uses-software rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-modelrun-uses-software rdfs:range rdfs:Resource .
+
+ps:modellingstep-modelrun-uses-software-freetext rdf:type rdf:Property . 
+ps:modellingstep-modelrun-uses-software-freetext rdfs:label "software used to run model -- freetext variant" .
+ps:modellingstep-modelrun-uses-software-freetext rdfs:comment "" .
+ps:modellingstep-modelrun-uses-software-freetext rdfs:domain pmlo:PharmMLO_0000007 .
+ps:modellingstep-modelrun-uses-software-freetext rdfs:range rdfs:Literal .
+
+ps:model-modelrun-uses-software-freetext rdf:type rdf:Property . 
+ps:model-modelrun-uses-software-freetext rdfs:label "software used to run model -- freetext variant" .
+ps:model-modelrun-uses-software-freetext rdfs:comment "" .
+ps:model-modelrun-uses-software-freetext rdfs:domain pmlo:PharmMLO_0000001 .
+ps:model-modelrun-uses-software-freetext rdfs:range rdfs:Literal .
+
+wat:model-has-correspondent wat:fillability-mode "always" .
+wat:model-has-correspondent wat:fillability-source "automatic" .
+wat:model-has-correspondent wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+wat:model-has-correspondent wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith wat:model-has-correspondent.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution wat:model-has-correspondent.
+
+ps:model-has-publication-source-external-id wat:fillability-mode "optional" .
+ps:model-has-publication-source-external-id wat:fillability-source "user" .
+ps:model-has-publication-source-external-id wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-publication-source-external-id wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-publication-source-external-id.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-publication-source-external-id.
+
+ps:model-has-name wat:fillability-mode "always" .
+ps:model-has-name wat:fillability-source "user" .
+ps:model-has-name wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-name wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-name.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-name.
+
+ps:model-has-author wat:fillability-mode "always" .
+ps:model-has-author wat:fillability-source "conditional" .
+ps:model-has-author wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-author wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-author.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-author.
+
+ps:model-has-description wat:fillability-mode "always" .
+ps:model-has-description wat:fillability-source "conditional" .
+ps:model-has-description wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-description wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-description.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-description.
+
+ps:model-has-description-short wat:fillability-mode "always" .
+ps:model-has-description-short wat:fillability-source "user" .
+ps:model-has-description-short wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-description-short wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-description-short.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-description-short.
+
+ps:model-has-description-long wat:fillability-mode "optional" .
+ps:model-has-description-long wat:fillability-source "user" .
+ps:model-has-description-long wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-has-description-long wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-has-description-long.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-has-description-long.
+
+wat:model-origin-of-code-in-literature-controlled wat:fillability-mode "always" .
+wat:model-origin-of-code-in-literature-controlled wat:fillability-source "user" .
+wat:model-origin-of-code-in-literature-controlled wat:fillability-choices "SINGLE_CONSTRAINED_CHOICE" .
+wat:model-origin-of-code-in-literature-controlled wat:displayValueType "TEXTLIST" .
+pmlo:PharmMLO_0000001 wat:annotatablewith wat:model-origin-of-code-in-literature-controlled.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution wat:model-origin-of-code-in-literature-controlled.
+
+wat:model-implementation-conforms-to-literature-controlled wat:fillability-mode "optional" .
+wat:model-implementation-conforms-to-literature-controlled wat:fillability-source "user" .
+wat:model-implementation-conforms-to-literature-controlled wat:fillability-choices "SINGLE_CONSTRAINED_CHOICE" .
+wat:model-implementation-conforms-to-literature-controlled wat:displayValueType "TEXTLIST" .
+pmlo:PharmMLO_0000001 wat:annotatablewith wat:model-implementation-conforms-to-literature-controlled.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution wat:model-implementation-conforms-to-literature-controlled.
+
+wat:model-implementation-source-discrepancies-freetext wat:fillability-mode "optional" .
+wat:model-implementation-source-discrepancies-freetext wat:fillability-source "user" .
+wat:model-implementation-source-discrepancies-freetext wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+wat:model-implementation-source-discrepancies-freetext wat:displayValueType "Text" .
+pmlo:PharmMLO_0000001 wat:annotatablewith wat:model-implementation-source-discrepancies-freetext.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution wat:model-implementation-source-discrepancies-freetext.
+
+ps:model-modelling-question wat:fillability-mode "always" .
+ps:model-modelling-question wat:fillability-source "user" .
+ps:model-modelling-question wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-modelling-question wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-modelling-question.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-modelling-question.
+
+ps:model-research-stage wat:fillability-mode "always" .
+ps:model-research-stage wat:fillability-source "user" .
+ps:model-research-stage wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-research-stage wat:displayValueType "tree" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-research-stage.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-research-stage.
+
+ps:model-field-purpose wat:fillability-mode "optional" .
+ps:model-field-purpose wat:fillability-source "user" .
+ps:model-field-purpose wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-field-purpose wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-field-purpose.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-field-purpose.
+
+ps:model-related-to-disease-or-condition ps:alternateFreetextProperty ps:model-related-to-disease-or-condition-freetext .
+ps:model-related-to-disease-or-condition wat:fillability-mode "optional" .
+ps:model-related-to-disease-or-condition wat:fillability-source "user" .
+ps:model-related-to-disease-or-condition wat:fillability-choices "SINGLE_UNCONSTRAINED_CHOICE" .
+ps:model-related-to-disease-or-condition wat:displayValueType "Ontology" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-related-to-disease-or-condition.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-related-to-disease-or-condition.
+
+ps:model-tasks-in-scope wat:fillability-mode "always" .
+ps:model-tasks-in-scope wat:fillability-source "user" .
+ps:model-tasks-in-scope wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-tasks-in-scope wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewith ps:model-tasks-in-scope.
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-tasks-in-scope.
+
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:fillability-mode "always" .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:fillability-source "user" .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000006 wat:annotatablewith ps:trialdesign-HasAssociatedDataOfType-DataPool.
+ps:model-HasAssociatedDataOfType-DataPool wat:fillability-mode "always" .
+ps:model-HasAssociatedDataOfType-DataPool wat:fillability-source "user" .
+ps:model-HasAssociatedDataOfType-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-HasAssociatedDataOfType-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-HasAssociatedDataOfType-DataPool.
+
+ps:trialdesign-HasAssociatedOrganismType-DataPool ps:alternateFreetextProperty ps:trialdesign-HasAssociatedOrganismType-DataPool-freetext .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:fillability-mode "always" .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:fillability-source "user" .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000009 wat:annotatablewith ps:trialdesign-HasAssociatedOrganismType-DataPool.
+ps:model-HasAssociatedOrganismType-DataPool ps:alternateFreetextProperty ps:model-HasAssociatedOrganismType-DataPool-freetext .
+ps:model-HasAssociatedOrganismType-DataPool wat:fillability-mode "always" .
+ps:model-HasAssociatedOrganismType-DataPool wat:fillability-source "user" .
+ps:model-HasAssociatedOrganismType-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-HasAssociatedOrganismType-DataPool.
+
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-mode "always" .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-source "user" .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000021 wat:annotatablewith ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool.
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-mode "always" .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-source "user" .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool.
+
+ps:modellingstep-modelrun-uses-software ps:alternateFreetextProperty ps:modellingstep-modelrun-uses-software-freetext .
+ps:modellingstep-modelrun-uses-software wat:fillability-mode "always" .
+ps:modellingstep-modelrun-uses-software wat:fillability-source "conditional" .
+ps:modellingstep-modelrun-uses-software wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:modellingstep-modelrun-uses-software wat:displayValueType "list" .
+pmlo:PharmMLO_0000007 wat:annotatablewith ps:modellingstep-modelrun-uses-software.
+ps:model-modelrun-uses-software ps:alternateFreetextProperty ps:model-modelrun-uses-software-freetext .
+ps:model-modelrun-uses-software wat:fillability-mode "always" .
+ps:model-modelrun-uses-software wat:fillability-source "conditional" .
+ps:model-modelrun-uses-software wat:fillability-choices "MULTIPLE_CONSTRAINED_CHOICE" .
+ps:model-modelrun-uses-software wat:displayValueType "list" .
+pmlo:PharmMLO_0000001 wat:annotatablewithNonPharmMLSubstitution ps:model-modelrun-uses-software.
+
+eur:5-9-section-three-four wat:fillability-enabled "true".
+
+eur:5-9-section-one wat:fillability-enabled "true".
+
+eur:5-9-section-two wat:fillability-enabled "true".
+
+eur:5-9-section-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-one-four wat:fillability-enabled "true".
+
+eur:5-9-section-one-five wat:fillability-enabled "true".
+
+eur:5-9-section-one-six wat:fillability-enabled "true".
+
+eur:5-9-section-one-seven wat:fillability-enabled "true".
+
+eur:5-9-section-one-eight wat:fillability-enabled "true".
+
+eur:5-9-section-one-nine wat:fillability-enabled "true".
+
+eur:5-9-section-one-ten wat:fillability-enabled "true".
+
+eur:5-9-section-two-one wat:fillability-enabled "true".
+
+eur:5-9-section-two-two wat:fillability-enabled "true".
+
+eur:5-9-section-two-three wat:fillability-enabled "true".
+
+eur:5-9-section-two-four wat:fillability-enabled "true".
+
+eur:5-9-section-two-five wat:fillability-enabled "true".
+
+eur:5-9-section-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-four wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-four-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-four-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-six wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-six-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-seven wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-seven-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-seven-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-eight wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-four wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-six wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-five wat:fillability-enabled "true".
+
+eur:5-9-section-five-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-two-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-two-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-two-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-four wat:fillability-enabled "true".
+
+eur:5-9-section-four-six wat:fillability-enabled "true".
+
+eur:5-9-section-three wat:fillability-enabled "true".
+
+eur:5-9-section-four wat:fillability-enabled "true".
+
+eur:5-9-section-five wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-five wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-six wat:fillability-enabled "true".
+
+eur:5-9-section-three-one-seven wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-one-four wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-four wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-five wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-six-two wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-six-three wat:fillability-enabled "true".
+
+eur:5-9-section-three-two-nine wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-five wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-one wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-four wat:fillability-enabled "true".
+
+eur:5-9-section-three-three-seven-six wat:fillability-enabled "true".
+
+eur:5-9-section-five-two wat:fillability-enabled "true".
+
+eur:5-9-section-five-three wat:fillability-enabled "true".
+
+eur:5-9-section-five-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-five-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-five-three-three wat:fillability-enabled "true".
+
+eur:5-9-section-five-three-four wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two-four wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-two-five wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-one-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-one-three-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-three-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-three-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-three-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-three-four wat:fillability-enabled "true".
+
+eur:5-9-section-four-three-five wat:fillability-enabled "true".
+
+eur:5-9-section-four-four wat:fillability-enabled "true".
+
+eur:5-9-section-four-five wat:fillability-enabled "true".
+
+eur:5-9-section-four-five-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-five-one-one wat:fillability-enabled "true".
+
+eur:5-9-section-four-five-one-two wat:fillability-enabled "true".
+
+eur:5-9-section-four-five-one-three wat:fillability-enabled "true".
+
+eur:5-9-section-four-five-two wat:fillability-enabled "true".
+
+wat:model-has-correspondent wat:fillability-enabled "true".
+
+ps:model-has-publication-source-external-id wat:fillability-enabled "true".
+
+ps:model-has-name wat:fillability-enabled "true".
+
+ps:model-has-author wat:fillability-enabled "true".
+
+ps:model-has-description wat:fillability-enabled "true".
+
+ps:model-has-description-short wat:fillability-enabled "true".
+
+ps:model-has-description-long wat:fillability-enabled "true".
+
+wat:model-origin-of-code-in-literature-controlled wat:fillability-enabled "true".
+
+wat:model-implementation-conforms-to-literature-controlled wat:fillability-enabled "true".
+
+wat:model-implementation-source-discrepancies-freetext wat:fillability-enabled "true".
+
+ps:model-modelling-question wat:fillability-enabled "true".
+
+ps:model-research-stage wat:fillability-enabled "true".
+
+ps:model-field-purpose wat:fillability-enabled "true".
+
+ps:model-related-to-disease-or-condition wat:fillability-enabled "true".
+
+ps:model-tasks-in-scope wat:fillability-enabled "true".
+
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:fillability-enabled "true".
+
+ps:model-HasAssociatedDataOfType-DataPool wat:fillability-enabled "true".
+
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:fillability-enabled "true".
+
+ps:model-HasAssociatedOrganismType-DataPool wat:fillability-enabled "true".
+
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-enabled "true".
+
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:fillability-enabled "true".
+
+ps:modellingstep-modelrun-uses-software wat:fillability-enabled "true".
+
+ps:model-modelrun-uses-software wat:fillability-enabled "true".
+
+wat:model-origin-of-code-in-literature-controlled wat:displayedvalueText "Yes" .
+wat:model-origin-of-code-in-literature-controlled wat:displayedvalueText "No" .
+wat:model-implementation-conforms-to-literature-controlled wat:displayedvalueText "Yes" .
+wat:model-implementation-conforms-to-literature-controlled wat:displayedvalueText "No" .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006035> "Patient Population Selection and Bridging between Population (Pediatrics, Elderly, Obese)") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006027> "Candidate Comparison, Selection, Human Dose Prediction") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006026> "Mechanistic Understanding") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006041> "Therapeutic Drug Monitoring") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006038> "Pharmaco-economic") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006028> "Study Design Optimization") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006039> "Pharmaco-epidemiologic") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006042> "Diagnostic model") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006032> "Risk & Benefit Characterization, Outcome Prediction (Clinical & design Viability)") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006036> "Disease Progression model") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006031> "Combination Therapy Dose Selection") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006030> "Similarity Assessment (MVC, Biosimilar, Formulation)") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006034> "Dose & Schedule Selection and Label Recommendation") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006029> "Variability sources in PK and PD (CYP, Renal, Biomarkers)") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006040> "Social-economic") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006033> "Comparator/Standard of Care Differentiation (Clinical & Commercial Viability)") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006043> "Veterinary") .
+ps:model-modelling-question wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006037> "Clinical end-point") .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000051> "In vitro" "2.2" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006003> "Discovery stage" "1" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006009> "Early clinical development (Phases I and II)" "3" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006006> "Lead Generation & Optimization" "1.3" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006005> "Target selection & Validation" "1.2" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006007> "In silico" "2.1" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006008> "In vivo" "2.3" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006011> "Life cycle management" "5" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006004> "Fundamental/Basic research" "1.1" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006010> "Approval phase/Registration trial (Phase III)" "4" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006012> "Clinical research & Therapeutic use" "6" ) .
+ps:model-research-stage wat:displayedvalueranked ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000050> "Preclinical development" "2" ) .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006018> "Respiratory") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001023> "CNS") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006021> "Gastroenterology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006013> "Metabolism") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006016> "Cardiovascular") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006023> "Immunology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006015> "Ophthalmology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_00060025> "Vaccines") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006020> "Endocrinology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001024> "Anti-infectives") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006024> "Rheumatology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006019> "Diagnostics") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006022> "Haematology") .
+ps:model-field-purpose wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000036> "Oncology") .
+ps:model-tasks-in-scope wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006000> "simulation") .
+ps:model-tasks-in-scope wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006001> "estimation") .
+ps:model-tasks-in-scope wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006002> "optimisation") .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000412> "Published data") .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000411> "Observations") .
+ps:trialdesign-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000413> "Simulations") .
+ps:model-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000412> "Published data") .
+ps:model-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000411> "Observations") .
+ps:model-HasAssociatedDataOfType-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000413> "Simulations") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9615 "dog") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10141 "guinea pig") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9527 "monkey") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10088 "mouse") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9823 "pig") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10114 "rat") .
+ps:trialdesign-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9986 "rabbit") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9615 "dog") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10141 "guinea pig") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9527 "monkey") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10088 "mouse") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9823 "pig") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:10114 "rat") .
+ps:model-HasAssociatedOrganismType-DataPool wat:displayedvalue (ncbit:9986 "rabbit") .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008012> "Healthy volunteer") .
+ps:trialdesign-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008011> "Patient") .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008012> "Healthy volunteer") .
+ps:model-HasAssociatedHumanGroupByMedicalStatus-DataPool wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008011> "Patient") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008000> "Berkeley-Madonna") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000390> "Matlab") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000391> "Monolix") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000368> "NONMEM") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008001> "Openbugs") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001109> "R") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008002> "SAS") .
+ps:modellingstep-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008003> "Winbugs") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008000> "Berkeley-Madonna") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000390> "Matlab") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000391> "Monolix") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000368> "NONMEM") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008001> "Openbugs") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0001109> "R") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008002> "SAS") .
+ps:model-modelrun-uses-software wat:displayedvalue (<http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0008003> "Winbugs") .
+
