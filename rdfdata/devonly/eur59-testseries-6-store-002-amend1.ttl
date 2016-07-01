@@ -896,60 +896,7 @@ eur:5-9-section-four-one-two-three wat:allowsAlternateFreetext "false" .
 eur:5-9-section-four-one-two-three wat:hasMetadataSlot ps:modeldefinition-HasModelForResponseType.
 eur:5-9-section-four-one-two-three wat:hasMetadataSlotSubstitute ps:model-HasModelForResponseType.
 
- eur:section-of .
- eur:section-number "" .
- eur:section-position "" .
- rdfs:label "" .
- wat:tooltip "" .
- wat:allowsAlternateFreetext "false" .
-# missing freetext alternate slot information 
-# missing freetext alternate substitite slot information 
-# missing PharmML slot information 
-# missing PharmML slot information 
-
- eur:section-of .
- eur:section-number "" .
- eur:section-position "" .
- rdfs:label "" .
- wat:tooltip "" .
- wat:allowsAlternateFreetext "false" .
-# missing freetext alternate slot information 
-# missing freetext alternate substitite slot information 
-# missing PharmML slot information 
-# missing PharmML slot information 
-
- eur:section-of .
- eur:section-number "" .
- eur:section-position "" .
- rdfs:label "" .
- wat:tooltip "" .
- wat:allowsAlternateFreetext "false" .
-# missing freetext alternate slot information 
-# missing freetext alternate substitite slot information 
-# missing PharmML slot information 
-# missing PharmML slot information 
-
- eur:section-of .
- eur:section-number "" .
- eur:section-position "" .
- rdfs:label "" .
- wat:tooltip "" .
- wat:allowsAlternateFreetext "false" .
-# missing freetext alternate slot information 
-# missing freetext alternate substitite slot information 
-# missing PharmML slot information 
-# missing PharmML slot information 
-
- eur:section-of .
- eur:section-number "" .
- eur:section-position "" .
- rdfs:label "" .
- wat:tooltip "" .
- wat:allowsAlternateFreetext "false" .
-# missing freetext alternate slot information 
-# missing freetext alternate substitite slot information 
-# missing PharmML slot information 
-# missing PharmML slot information 
+ #
 
 eur:5-9-section-four-one-four eur:section-of eur:5-9-section-four-one.
 eur:5-9-section-four-one-four eur:section-number "4.1.4" .
