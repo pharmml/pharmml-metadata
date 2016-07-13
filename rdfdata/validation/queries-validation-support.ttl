@@ -1,0 +1,7 @@
+# Set of queries around clusters in support of validation
+
+# GET properties in PharmML cluster and in PK cluster 
+
+select ?x where {?x <http://www.pharmml.org/2013/10/PharmMLMetadata#propertyInCluster> <http://www.pharmml.org/2013/10/PharmMLMetadata#ClusterOfProperties-NonPharmML> .
+?x <http://www.pharmml.org/2013/10/PharmMLMetadata#propertyInCluster> <http://www.pharmml.org/2013/10/PharmMLMetadata#ClusterOfProperties-PKComponent>  }
+
