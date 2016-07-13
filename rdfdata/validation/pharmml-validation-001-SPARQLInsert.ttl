@@ -1,0 +1,238 @@
+PREFIX eur:   <http://www.ddmore.org/ontologies/metadataeur#> 
+PREFIX ps:    <http://www.pharmml.org/2013/10/PharmMLMetadata#> 
+PREFIX pmlo:  <http://www.pharmml.org/ontology/> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX wat:   <http://www.ddmore.org/ontologies/webannotationtool#> 
+PREFIX ps2:    <http://www.pharmml.org/2013/10/PharmMLMetadata#> 
+
+INSERT DATA {
+
+
+
+### Clusters of Properties 
+
+ps2:ClusterOfProperties
+  a rdfs:Class ;
+  rdfs:label "cluster of properties" ;
+# rdfs:subClassOf NIL ;
+  rdfs:comment "An instance of ClusterOfProperties is a class of properties that share a common criterion of application. The mechanism is used in order to superficially represent the expected co-occurrence of annotation values for properties within a cluster." . 
+
+ps2:clusterHasProperty
+  a rdf:Property ;
+  rdfs:label "has property-cluster element" ;
+  rdfs:comment "a link between an instance of ClusterOfProperties and a Property belonging to the cluster." ;
+  rdfs:domain ps2:ClusterOfProperties ;
+  rdfs:range rdf:Property .
+
+ps2:propertyInCluster
+  a rdf:Property ;
+  rdfs:label "is property-cluster element" ;
+  rdfs:comment "a link between a Property belonging to a cluster and that cluster (an instance of ClusterOfProperties)." ;
+  rdfs:domain rdf:Property ;
+  rdfs:range ps2:ClusterOfProperties .
+
+# PROFILE 
+
+ps2:objectTypeHasAnnotationProfile
+  a rdf:Property ;
+  rdfs:label "has annotation profile" ;
+  rdfs:comment "a link between a type of object and an attribute formalising its annotation profile." ;
+  rdfs:domain rdf:Resource ;
+  rdfs:range rdf:Resource .
+
+ps2:annotationProfileAppliesToObjectType
+  a rdf:Property ;
+  rdfs:label "profile applicable to" ;
+  rdfs:comment "a link between an annotation profile and a type of object to which it applies." ;
+  rdfs:domain rdf:Resource ;
+  rdfs:range rdf:Resource .
+
+ps2:AnnotationProfile
+  a rdfs:Class ;
+  rdfs:label "annotation profile" ;
+# rdfs:subClassOf NIL ;
+  rdfs:comment "An instance of AnnotationProfile characterises an annotated object so that it can be related to a cluster of properties according to its type." . 
+  
+ps2:ObjectIsModel
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model" .
+
+ps2:ObjectIsModelInPharmML
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model in its PharmML encoding" .
+
+ps2:ObjectIsModelNotInPharmML
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model not in its PharmML encoding" .
+
+ps2:ObjectIsModelWithPKComponent
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model with a PK component" .
+
+ps2:ObjectIsModelWithPDComponent
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model with a PK component" .
+
+ps2:ObjectIsModelWithPBPKComponent
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model with a PBPK component" .
+
+ps2:ObjectIsModelWithDDIComponent
+  a ps2:AnnotationProfile ; 
+  rdfs:label "annotation profile of a model with a DDI component" .
+
+ps2:annotationProfileRelatesToClusterOfProperties
+  a rdf:Property ;
+  rdfs:label "annotation profile relates to property-cluster" ;
+  rdfs:comment "a link between an instance of AnnotationProfile and an instance of ClusterOfProperties such that an object with that profile is related to properties in that cluster. See modal variants." ;
+  rdfs:domain ps2:AnnotationProfile ;
+  rdfs:range ps2:ClusterOfProperties .
+
+ps2:clusterOfPropertiesRelatesToAnnotationProfile
+  a rdf:Property ;
+  rdfs:label "property-cluster relates to annotation profile" ;
+  rdfs:comment "a link between an instance of ClusterOfProperties and an instance of AnnotationProfile such that an object with that profile is related to properties in that cluster. See modal variants." ;
+  rdfs:domain ps2:ClusterOfProperties ;
+  rdfs:range ps2:AnnotationProfile .
+
+
+### Cluster instances 
+
+# PharmML Property Cluster 
+
+ps2:ClusterOfProperties-PharmML 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "PharmML property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of the PharmML encoding of a model when that encoding exists." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelInPharmML .
+
+# non-PharmML Property Cluster
+
+ps2:ClusterOfProperties-NonPharmML 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "non-PharmML property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of the non-PharmML encoding of a model, especially when that encoding does not yet exist." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelNotInPharmML .  
+
+# PK, PD, PBPK, DDI components Property Clusters 
+
+ps2:ClusterOfProperties-PKComponent 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "PK property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of a model with a PK component present." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelWithPKComponent .
+
+ps2:ClusterOfProperties-PDComponent 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "PD property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of a model with a PD component present." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelWithPDComponent .
+
+ps2:ClusterOfProperties-PBPKComponent 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "PBPK property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of a model with a PBPK component present." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelWithPBPKComponent .
+   
+ps2:ClusterOfProperties-DDIComponent 
+  a ps2:ClusterOfProperties ; 
+  rdfs:label "DDI property cluster" ;
+  rdfs:comment "The ClusterOfProperties such that its elements are those properties used in the annotation of a model with a DDI (drug-drug interaction) component present." ; 
+  ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelWithDDIComponent .
+
+########################  
+####### DATA ###########
+
+# PHARMML
+
+wat:model-has-correspondent ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+wat:model-implementation-source-discrepancies-freetext ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-publication-source-external-id ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-name ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-author ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-description ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-description-short ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:model-has-description-long ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+wat:model-origin-of-code-in-literature-controlled ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+wat:model-implementation-conforms-to-literature-controlled ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+
+# NOT PHARMML
+
+wat:model-has-correspondent ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+wat:model-implementation-source-discrepancies-freetext ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-publication-source-external-id ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-name ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-author ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-description ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-description-short ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+ps:model-has-description-long ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+wat:model-origin-of-code-in-literature-controlled ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+wat:model-implementation-conforms-to-literature-controlled ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+
+# PK and PharmML
+
+ps:modeldefinition-HasAssociatedInputType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+
+ps:modeldefinition-HasAssociatedInputType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+
+
+# PK and Not PharmML
+
+ps:model-HasAssociatedInputType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasHassociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+
+ps:model-HasAssociatedInputType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasHassociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+ps:model-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
+
+}
