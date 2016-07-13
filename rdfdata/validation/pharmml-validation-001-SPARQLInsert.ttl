@@ -9,7 +9,6 @@ PREFIX ps2:    <http://www.pharmml.org/2013/10/PharmMLMetadata#>
 INSERT DATA {
 
 
-
 ### Clusters of Properties 
 
 ps2:ClusterOfProperties
@@ -159,33 +158,33 @@ wat:model-implementation-conforms-to-literature-controlled ps2:propertyInCluster
 
 # NOT PHARMML
 
-wat:model-has-correspondent ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-wat:model-implementation-source-discrepancies-freetext ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-publication-source-external-id ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-name ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-author ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-description ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-description-short ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-ps:model-has-description-long ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-wat:model-origin-of-code-in-literature-controlled ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
-wat:model-implementation-conforms-to-literature-controlled ps2:propertyInCluster ps2:ObjectIsModelInNotPharmML .
+wat:model-has-correspondent ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+wat:model-implementation-source-discrepancies-freetext ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-publication-source-external-id ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-name ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-author ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-description ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-description-short ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ps:model-has-description-long ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+wat:model-origin-of-code-in-literature-controlled ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+wat:model-implementation-conforms-to-literature-controlled ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
 
 # PK and PharmML
 
-ps:modeldefinition-HasAssociatedInputType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
-ps:modeldefinition-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ObjectIsModelInPharmML .
+ps:modeldefinition-HasAssociatedInputType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedAbsorptionRateType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedBioavailabilityType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstance-string ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-InputPresentsFormationFromOtherSubstanceModelType ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedNumberOfModelledCompartments ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-EnterohepaticRecycling ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearTransport ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-NonLinearProteinBinding ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedDistributionModellingAttribute-string ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-CompartmentOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
+ps:modeldefinition-HasAssociatedEliminationModellingAttribute-TypeOfElimination ps2:propertyInCluster ps2:ClusterOfProperties-PharmML .
 
 ps:modeldefinition-HasAssociatedInputType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
 ps:modeldefinition-HasAssociatedAbsorptionDelayModelType ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent .
