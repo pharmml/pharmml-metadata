@@ -1,7 +1,56 @@
 # Set of queries around clusters in support of validation
 
-# GET properties in PharmML cluster and in PK cluster 
+# GET clusters for object typed: ObjectIsPharmML 
+# If you annotate a PharmML model, get the properties attached to this cluster 
 
-select ?x where {?x <http://www.pharmml.org/2013/10/PharmMLMetadata#propertyInCluster> <http://www.pharmml.org/2013/10/PharmMLMetadata#ClusterOfProperties-NonPharmML> .
-?x <http://www.pharmml.org/2013/10/PharmMLMetadata#propertyInCluster> <http://www.pharmml.org/2013/10/PharmMLMetadata#ClusterOfProperties-PKComponent>  }
+PREFIX ps2: <http://www.pharmml.org/2013/10/PharmMLMetadata#>
 
+select ?x where {
+ ?x ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelInPharmML }
+ 
+
+# GET properties in Non PharmML cluster and in PK cluster 
+
+PREFIX ps2: <http://www.pharmml.org/2013/10/PharmMLMetadata#>
+
+select ?x where {
+ ?x ps2:propertyInCluster ps2:ClusterOfProperties-NonPharmML .
+ ?x ps2:propertyInCluster ps2:ClusterOfProperties-PKComponent }
+
+
+###
+# GET properties for an object that's PharmML and has a PK component 
+
+PREFIX ps2: <http://www.pharmml.org/2013/10/PharmMLMetadata#>
+
+select ?x where {
+# <THE-OBJECT> <HAS-PROFILE> <PROFILE> .
+# <THE-OBJECT> <HAS-PROFILE> <PROFILE2> .
+ ?c1 ps2:clusterOfPropertiesRelatesToAnnotationProfile ?p1 .
+ ?c2 ps2:clusterOfPropertiesRelatesToAnnotationProfile ?p2 .
+ ?x ps2:propertyInCluster ?c1 .
+ ?x ps2:propertyInCluster ?c2 }
+
+# Removes ?p1 = ?p2 but leaves swapping
+
+PREFIX ps2: <http://www.pharmml.org/2013/10/PharmMLMetadata#>
+
+select distinct ?p1 ?p2 ?x where {
+# <THE-OBJECT> <HAS-PROFILE> <PROFILE> .
+# <THE-OBJECT> <HAS-PROFILE> <PROFILE2> .
+ ?c1 ps2:clusterOfPropertiesRelatesToAnnotationProfile ?p1 .
+ ?c2 ps2:clusterOfPropertiesRelatesToAnnotationProfile ?p2 .
+ FILTER (?p1 != ?p2) .
+ ?x ps2:propertyInCluster ?c1 .
+ ?x ps2:propertyInCluster ?c2 }
+ 
+### Starting from Profile 
+ 
+PREFIX ps2: <http://www.pharmml.org/2013/10/PharmMLMetadata#>
+
+select ?x where {
+ ?c1 ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelInPharmML .
+ ?c2 ps2:clusterOfPropertiesRelatesToAnnotationProfile ps2:ObjectIsModelWithPKComponent 
+.
+ ?x ps2:propertyInCluster ?c1 .
+ ?x ps2:propertyInCluster ?c2 }
