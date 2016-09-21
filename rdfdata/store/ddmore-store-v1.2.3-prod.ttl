@@ -559,7 +559,7 @@ ps:model-research-stage
         rdfs:label                    "nature of research" ;
         rdfs:range                    rdfs:Resource ;
         wat:displayValueType          "tree" ;
-        wat:displayedvalue-query      <http://example/upload-base/[OWLKB]/subhierarchy/pharmaceutical%20research%20activity> ;
+        wat:displayedvalue-query      "http://example/upload-base/[OWLKB]/subhierarchy/pharmaceutical%20research%20activity" ;
         wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0000051> "In vitro" "2.2" ) ;
         wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006003> "Discovery stage" "1" ) ;
         wat:displayedvalueranked      ( <http://www.ddmore.org/ontologies/ontology/pkpd-ontology#pkpd_0006009> "Early clinical development (Phases I and II)" "3" ) ;
